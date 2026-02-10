@@ -2,19 +2,19 @@
 title: "Mapa y top 10 países"
 bibliography: refs.bib
 csl: ieee-access.csl
-execute:
-  echo: false
+
 jupyter: python3
 format:
   html:
     code-fold: true
-    code-summary: "Show the code"
+    code-summary: "Código"
 ---
 
 Los datos de @international_renewable_energy_agency_renewable_2025 corresponden al promedio de 2024, los de @global_energy_monitor_global_2025 a marzo de 2025 y los de @geoenergy_global_2026 a finales de 2025.
 
 ## Mapa de capacidad instalada geotérmica
 ```{python}
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
