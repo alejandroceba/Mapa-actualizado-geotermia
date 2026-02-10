@@ -11,20 +11,27 @@
     "href": "index.html",
     "title": "Mapa y top 10 países",
     "section": "",
-    "text": "/tmp/ipykernel_18178/3331982097.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
+    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025."
   },
   {
     "objectID": "index.html#mapa-de-capacidad-instalada-geotérmica",
     "href": "index.html#mapa-de-capacidad-instalada-geotérmica",
     "title": "Mapa y top 10 países",
-    "section": "",
-    "text": "/tmp/ipykernel_18178/3331982097.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
+    "section": "Mapa de capacidad instalada geotérmica",
+    "text": "Mapa de capacidad instalada geotérmica\n\n\n/tmp/ipykernel_21528/3331982097.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
   },
   {
     "objectID": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
     "href": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
     "title": "Mapa y top 10 países",
     "section": "Top 10 países con mayor capacidad instalada geotérmica",
-    "text": "Top 10 países con mayor capacidad instalada geotérmica"
+    "text": "Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
+  },
+  {
+    "objectID": "index.html#referencias",
+    "href": "index.html#referencias",
+    "title": "Mapa y top 10 países",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n[1] International Renewable Energy Agency, Renewable Energy Statistics 2025. Abu Dhabi: International Renewable Energy Agency IRENA, 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_DAT_RE_Statistics_2025.pdf\n\n\n[2] Global Energy Monitor, “Global Geothermal Power Tracker, March 2025 release,” Global Energy Monitor. Global Energy Monitor, Covina, Canada, Mar. 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://globalenergymonitor.org/projects/global-geothermal-power-tracker/\n\n\n[3] A. Richter, “Global Top 10 Geothermal Power Countries at Year-End 2025.” Think GeoEnergy, Jan. 2026. Accessed: Feb. 10, 2026. [Online]. Available: https://www.thinkgeoenergy.com/global-top-10-geothermal-power-countries-at-year-end-2025/"
   }
 ]

@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "Mapa actualizado capacidad geotérmica"
   navbar:
