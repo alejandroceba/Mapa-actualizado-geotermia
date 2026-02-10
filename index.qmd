@@ -1,0 +1,41 @@
+---
+title: "Mapa y top 10 países"
+execute:
+  echo: false
+jupyter: python3
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+## Mapa de capacidad instalada geotérmica
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
+
+df = pd.read_csv("merged_geothermal.csv")
+
+df_melted = df[["Country", "2024 [1]", "2025 [2]", "2025 [3]"]].copy()
+df_melted.columns = ["País", "2024 [1]", "2025 [2]", "2025 [3]"]
+
+df_long = df_melted.melt(id_vars=["País"],
+                       var_name="Año",
+                       value_name="Capacidad [MW]")
+
+fig = px.choropleth(df_long,
+                    locations="País",
+                    locationmode="country names",
+                    color="Capacidad [MW]",
+                    hover_name="País",
+                    animation_frame="Año",
+                    color_continuous_scale=px.colors.sequential.Plasma);
+
+fig.layout.updatemenus[0].buttons[0].args[1]['frame']['duration'] = 1500
+fig.layout.updatemenus[0].buttons[0].args[1]['transition']['duration'] = 500
+
+fig.show();
+```
+
+## Top 10 países con mayor capacidad instalada geotérmica
