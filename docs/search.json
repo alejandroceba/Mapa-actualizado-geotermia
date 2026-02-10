@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mapa y top 10 países",
+    "section": "",
+    "text": "/tmp/ipykernel_18178/3331982097.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
+  },
+  {
+    "objectID": "index.html#mapa-de-capacidad-instalada-geotérmica",
+    "href": "index.html#mapa-de-capacidad-instalada-geotérmica",
+    "title": "Mapa y top 10 países",
+    "section": "",
+    "text": "/tmp/ipykernel_18178/3331982097.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
+  },
+  {
+    "objectID": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
+    "href": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
+    "title": "Mapa y top 10 países",
+    "section": "Top 10 países con mayor capacidad instalada geotérmica",
+    "text": "Top 10 países con mayor capacidad instalada geotérmica"
+  }
+]
