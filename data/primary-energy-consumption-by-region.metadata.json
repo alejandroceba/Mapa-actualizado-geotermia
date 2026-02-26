@@ -1,0 +1,40 @@
+{
+  "chart": {
+    "title": "Primary energy consumption by world region",
+    "subtitle": "[Primary energy](#dod:primaryenergy) consumption is measured in [terawatt-hours](#dod:watt-hours), using the [substitution method](#dod:substitutionmethod).",
+    "note": "The data includes only commercially-traded fuels (coal, oil, gas), nuclear and modern renewables used in electricity production, but not traditional biomass.",
+    "citation": "Energy Institute - Statistical Review of World Energy (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/primary-energy-consumption-by-region?tab=discrete-bar&time=latest&v=1&csvType=filtered&useColumnShortNames=false",
+    "selection": [
+      "Asia Pacific (EI)",
+      "Africa (EI)",
+      "Europe (EI)",
+      "North America (EI)",
+      "South and Central America (EI)",
+      "Middle East (EI)"
+    ]
+  },
+  "columns": {
+    "Primary energy consumption - TWh": {
+      "titleShort": "Primary energy consumption",
+      "titleLong": "Primary energy consumption",
+      "descriptionShort": "Comprises commercially-traded fuels, including modern renewables used to generate electricity. Energy from all sources of non-fossil power generation is accounted for on an input-equivalent basis.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1965-2024",
+      "type": "Numeric",
+      "owidVariableId": 1077647,
+      "shortName": "primary_energy_consumption_equivalent_twh",
+      "lastUpdated": "2025-06-27",
+      "nextUpdate": "2026-06-27",
+      "citationShort": "Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Primary energy consumption” [dataset]. Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1077647.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-02-26",
+  "activeFilters": {
+    "tab": "discrete-bar",
+    "time": "latest"
+  }
+}
