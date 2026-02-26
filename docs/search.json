@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "notebooks/001_graphs.html",
+    "href": "notebooks/001_graphs.html",
+    "title": "Mapa actualizado capacidad geotérmica",
     "section": "",
-    "text": "About this site"
+    "text": "import pandas as pd \nimport numpy as np\nimport matplotlib.pyplot as plt\nimport plotly.express as px\n\n\nf = \"../data/iea_total_energy_supply_by_source_world__2023.csv\"\ndf = pd.read_csv(f)\nfig = px.pie(df, values=\"Valor\", names=\"Fuente\")\nfig.update_traces(textinfo='percent+value', texttemplate=\"%{percent}&lt;br&gt;%{value} TJ\")\nfig.show()\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1"
   },
   {
-    "objectID": "index.html#contribución-del-suministro-total-de-energía-primaria-por-fuente-2023",
-    "href": "index.html#contribución-del-suministro-total-de-energía-primaria-por-fuente-2023",
+    "objectID": "index.html#contribución-del-suministro-total-de-energía-primaria-por-fuente-2023-iea_world_2025",
+    "href": "index.html#contribución-del-suministro-total-de-energía-primaria-por-fuente-2023-iea_world_2025",
     "title": "1 La geotermia como energía renovable",
-    "section": "Contribución del suministro total de energía primaria por fuente, 2023",
-    "text": "Contribución del suministro total de energía primaria por fuente, 2023"
+    "section": "Contribución del suministro total de energía primaria por fuente, 2023 [1]",
+    "text": "Contribución del suministro total de energía primaria por fuente, 2023 [1]\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n\n\nTotal =  633700470 TJ"
   },
   {
     "objectID": "index.html#distribución-regional-del-suministro-total-de-energía-primaria-2023",
@@ -102,7 +102,7 @@
     "href": "index.html#mapa-de-capacidad-instalada-geotérmica",
     "title": "1 La geotermia como energía renovable",
     "section": "Mapa de capacidad instalada geotérmica",
-    "text": "Mapa de capacidad instalada geotérmica\nLos datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025."
+    "text": "Mapa de capacidad instalada geotérmica\nLos datos de [2] corresponden al promedio de 2024, los de [3] a marzo de 2025 y los de [4] a finales de 2025."
   },
   {
     "objectID": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
@@ -116,6 +116,13 @@
     "href": "index.html#referencias",
     "title": "1 La geotermia como energía renovable",
     "section": "Referencias",
-    "text": "Referencias\n\n\n[1] International Renewable Energy Agency, Renewable Energy Statistics 2025. Abu Dhabi: International Renewable Energy Agency IRENA, 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_DAT_RE_Statistics_2025.pdf\n\n\n[2] Global Energy Monitor, “Global Geothermal Power Tracker, March 2025 release,” Global Energy Monitor. Global Energy Monitor, Covina, Canada, Mar. 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://globalenergymonitor.org/projects/global-geothermal-power-tracker/\n\n\n[3] A. Richter, “Global Top 10 Geothermal Power Countries at Year-End 2025.” Think GeoEnergy, Jan. 2026. Accessed: Feb. 10, 2026. [Online]. Available: https://www.thinkgeoenergy.com/global-top-10-geothermal-power-countries-at-year-end-2025/"
+    "text": "Referencias\n\n\n[1] IEA, “World energy balances. IEA.” Accessed: Feb. 26, 2026. [Online]. Available: https://www.iea.org/data-and-statistics/data-product/world-energy-balances\n\n\n[2] International Renewable Energy Agency, Renewable Energy Statistics 2025. Abu Dhabi: International Renewable Energy Agency IRENA, 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_DAT_RE_Statistics_2025.pdf\n\n\n[3] Global Energy Monitor, “Global Geothermal Power Tracker, March 2025 release,” Global Energy Monitor. Global Energy Monitor, Covina, Canada, Mar. 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://globalenergymonitor.org/projects/global-geothermal-power-tracker/\n\n\n[4] A. Richter, “Global Top 10 Geothermal Power Countries at Year-End 2025.” Think GeoEnergy, Jan. 2026. Accessed: Feb. 10, 2026. [Online]. Available: https://www.thinkgeoenergy.com/global-top-10-geothermal-power-countries-at-year-end-2025/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

@@ -12,7 +12,23 @@ format:
 
 # 1.1 Panorama mundial de energía y energías renovables
 
-## Contribución del suministro total de energía primaria por fuente, 2023
+## Contribución del suministro total de energía primaria por fuente, 2023 @iea_world_2025
+
+```{python}
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+f = "data/iea_total_energy_supply_by_source_world__2023.csv"
+df = pd.read_csv(f)
+fig = px.pie(df, values="Valor", names="Fuente")
+fig.update_traces(textinfo='percent+value', texttemplate="%{percent}<br>%{value} TJ")
+fig.show()
+```
+
+```{python}
+print("Total = ", df["Valor"].sum(), "TJ")
+```
 
 ## Distribución regional del suministro total de energía primaria, 2023
 
@@ -61,7 +77,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-df = pd.read_csv("merged_geothermal.csv")
+df = pd.read_csv("data/merged_geothermal.csv")
 
 df_melted = df[["Country", "2024 [1]", "2025 [2]", "2025 [3]"]].copy()
 df_melted.columns = ["País", "2024 [1]", "2025 [2]", "2025 [3]"]
