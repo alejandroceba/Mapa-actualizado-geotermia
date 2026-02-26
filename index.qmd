@@ -1,20 +1,60 @@
 ---
-title: "Presentacion"
+title: "1 La geotermia como energía renovable"
 bibliography: refs.bib
 csl: ieee-access.csl
-
+execute:
+  echo: false
 jupyter: python3
 format:
   revealjs:
     theme: "default"
-  html:
-    code-fold: true
-    code-summary: "Código"
 ---
 
-Los datos de @international_renewable_energy_agency_renewable_2025 corresponden al promedio de 2024, los de @global_energy_monitor_global_2025 a marzo de 2025 y los de @geoenergy_global_2026 a finales de 2025.
+# 1.1 Panorama mundial de energía y energías renovables
+
+## Contribución del suministro total de energía primaria por fuente, 2023
+
+## Distribución regional del suministro total de energía primaria, 2023
+
+## Contribución de las energías renovables al suministro total de energía primaria, 2023
+
+## Consumo de petróleo per cápita por región, 2023
+
+## Contribución de la generación eléctrica por fuente, 2023
+
+## Contribución de la generación eléctrica por región, 2023
+
+## Total del consumo mundial por fuente de energía, 2023 - 2050
+
+## Mayores importadores netos de combustibles fósiles, 2023
+
+# 1.2 Impacto ambiental del consumo de energía
+
+## Emisiones de CO2 por fuente de energía, 2023
+
+## Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global, 2023
+
+## Datos clave
+
+* Aumento de emisiones por generación eléctrica 2000-2023: %
+* Cambio de las emisiones de CO2: %
+* Crecimiento proyectado de ER: % / a
+* Crecimiento proyectado de nuclear: % / a
+* Contribución proyectada de fósiles: % / a
+* Aumento de consumo de gas: % / a
+
+# 1.3 Escenario comparativo con otras fuentes renovables de energía
+
+## Emisiones CO2
+
+Comparación de emisiones de CO2 de geotermia y fuentes convencionales
+
+## Emisiones NOx
+
+# 1.5 Escenario mundial actual de explotación de los recursos geotérmicos
 
 ## Mapa de capacidad instalada geotérmica
+Los datos de @international_renewable_energy_agency_renewable_2025 corresponden al promedio de 2024, los de @global_energy_monitor_global_2025 a marzo de 2025 y los de @geoenergy_global_2026 a finales de 2025.
 ```{python}
 
 import pandas as pd
