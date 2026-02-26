@@ -5,6 +5,8 @@ csl: ieee-access.csl
 
 jupyter: python3
 format:
+  revealjs:
+    theme: "default"
   html:
     code-fold: true
     code-summary: "Código"
