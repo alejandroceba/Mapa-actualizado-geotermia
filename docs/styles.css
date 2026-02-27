@@ -1,1 +1,10 @@
 /* css styles */
+.cell .cell-output-stdout pre code {
+    max-height: 650 px; /* ajustar como se necesite */
+    overflow-y: auto; /* agrega scroll vertical si el contenido se sale de pagina */
+}
+.hscroll {
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: nowrap;
+}
