@@ -1,12 +1,11 @@
 # Primary energy consumption by world region - Data package
 
-This data package contains the data that powers the chart ["Primary energy consumption by world region"](https://ourworldindata.org/grapher/primary-energy-consumption-by-region?tab=discrete-bar&time=latest&v=1&csvType=filtered&useColumnShortNames=false) on the Our World in Data website. It was downloaded on February 26, 2026.
+This data package contains the data that powers the chart ["Primary energy consumption by world region"](https://ourworldindata.org/grapher/primary-energy-consumption-by-region?time=earliest..2024&v=1&csvType=filtered&useColumnShortNames=false) on the Our World in Data website. It was downloaded on March 09, 2026.
 
 ### Active Filters
 
 A filtered subset of the full data was downloaded. The following filters were applied:
-- tab: discrete-bar
-- time: latest
+- time: earliest..2024
 
 ## CSV Structure
 

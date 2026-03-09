@@ -1,7 +1,361 @@
-Región,Año,Consumo de energía primaria
-África,2024,6139.628
-Asia Pacífico,2024,83748.13
-Europa,2024,22010.53
-"Medio Oriente",2024,11597.1875
-Norteamérica,2024,32724.998
-"Sudamérica y Centroamérica",2024,8776.719
+Entity,Year,Primary energy consumption
+Africa (EI),1965,715.2595
+Africa (EI),1966,749.1478
+Africa (EI),1967,757.0225
+Africa (EI),1968,799.8021
+Africa (EI),1969,821.88776
+Africa (EI),1970,892.29584
+Africa (EI),1971,951.0875
+Africa (EI),1972,1006.129
+Africa (EI),1973,1091.3364
+Africa (EI),1974,1146.7285
+Africa (EI),1975,1215.4071
+Africa (EI),1976,1317.6064
+Africa (EI),1977,1389.2585
+Africa (EI),1978,1443.465
+Africa (EI),1979,1573.5199
+Africa (EI),1980,1692.9475
+Africa (EI),1981,1901.1334
+Africa (EI),1982,2027.7996
+Africa (EI),1983,2083.269
+Africa (EI),1984,2144.8538
+Africa (EI),1985,2231.8591
+Africa (EI),1986,2276.7986
+Africa (EI),1987,2354.0317
+Africa (EI),1988,2520.1282
+Africa (EI),1989,2524.231
+Africa (EI),1990,2610.341
+Africa (EI),1991,2605.747
+Africa (EI),1992,2642.7234
+Africa (EI),1993,2650.9026
+Africa (EI),1994,2740.5322
+Africa (EI),1995,2849.6082
+Africa (EI),1996,2923.5354
+Africa (EI),1997,2985.1292
+Africa (EI),1998,3028.7114
+Africa (EI),1999,3121.7578
+Africa (EI),2000,3196.58
+Africa (EI),2001,3318.3604
+Africa (EI),2002,3361.1843
+Africa (EI),2003,3512.7957
+Africa (EI),2004,3819.3992
+Africa (EI),2005,3787.7166
+Africa (EI),2006,3871.4602
+Africa (EI),2007,4012.7917
+Africa (EI),2008,4258.8833
+Africa (EI),2009,4315.6646
+Africa (EI),2010,4460.1904
+Africa (EI),2011,4529.2793
+Africa (EI),2012,4734.0757
+Africa (EI),2013,4888.1616
+Africa (EI),2014,5049.4824
+Africa (EI),2015,5163.164
+Africa (EI),2016,5280.843
+Africa (EI),2017,5444.701
+Africa (EI),2018,5530.5728
+Africa (EI),2019,5681.8325
+Africa (EI),2020,5412.605
+Africa (EI),2021,5870.3735
+Africa (EI),2022,5954.6543
+Africa (EI),2023,6050.292
+Africa (EI),2024,6139.628
+Asia Pacific (EI),1965,5251.795
+Asia Pacific (EI),1966,5757.8765
+Asia Pacific (EI),1967,5985.9717
+Asia Pacific (EI),1968,6424.7344
+Asia Pacific (EI),1969,7366.6597
+Asia Pacific (EI),1970,8434.379
+Asia Pacific (EI),1971,9171.671
+Asia Pacific (EI),1972,9804.583
+Asia Pacific (EI),1973,10537.671
+Asia Pacific (EI),1974,10709.332
+Asia Pacific (EI),1975,11246.55
+Asia Pacific (EI),1976,11812.646
+Asia Pacific (EI),1977,12431.663
+Asia Pacific (EI),1978,13190.507
+Asia Pacific (EI),1979,13705.557
+Asia Pacific (EI),1980,13750.195
+Asia Pacific (EI),1981,13842.635
+Asia Pacific (EI),1982,14013.402
+Asia Pacific (EI),1983,14704.746
+Asia Pacific (EI),1984,15537.952
+Asia Pacific (EI),1985,16369.718
+Asia Pacific (EI),1986,17030.906
+Asia Pacific (EI),1987,18093.342
+Asia Pacific (EI),1988,19373.102
+Asia Pacific (EI),1989,20391.076
+Asia Pacific (EI),1990,21159.07
+Asia Pacific (EI),1991,22195.844
+Asia Pacific (EI),1992,23209.504
+Asia Pacific (EI),1993,24456.176
+Asia Pacific (EI),1994,25775.32
+Asia Pacific (EI),1995,26999.314
+Asia Pacific (EI),1996,28279.758
+Asia Pacific (EI),1997,29145.492
+Asia Pacific (EI),1998,29112.805
+Asia Pacific (EI),1999,30182.867
+Asia Pacific (EI),2000,31397.447
+Asia Pacific (EI),2001,32423.879
+Asia Pacific (EI),2002,33967.4
+Asia Pacific (EI),2003,36793.24
+Asia Pacific (EI),2004,40442.938
+Asia Pacific (EI),2005,43661.37
+Asia Pacific (EI),2006,46211.39
+Asia Pacific (EI),2007,49071
+Asia Pacific (EI),2008,50458.867
+Asia Pacific (EI),2009,51618.965
+Asia Pacific (EI),2010,54895.85
+Asia Pacific (EI),2011,57669.06
+Asia Pacific (EI),2012,59548.543
+Asia Pacific (EI),2013,61128.1
+Asia Pacific (EI),2014,62678.707
+Asia Pacific (EI),2015,63747.26
+Asia Pacific (EI),2016,64686.184
+Asia Pacific (EI),2017,67046.375
+Asia Pacific (EI),2018,69817.37
+Asia Pacific (EI),2019,72059.055
+Asia Pacific (EI),2020,71728.92
+Asia Pacific (EI),2021,75584.34
+Asia Pacific (EI),2022,77486.914
+Asia Pacific (EI),2023,80762.77
+Asia Pacific (EI),2024,83748.13
+Europe (EI),1965,12449.917
+Europe (EI),1966,12824.238
+Europe (EI),1967,13199.24
+Europe (EI),1968,14075.016
+Europe (EI),1969,15090.387
+Europe (EI),1970,16066.297
+Europe (EI),1971,16491.045
+Europe (EI),1972,17271.783
+Europe (EI),1973,18264.715
+Europe (EI),1974,18017.963
+Europe (EI),1975,17846.615
+Europe (EI),1976,18843.635
+Europe (EI),1977,19186.35
+Europe (EI),1978,19902.28
+Europe (EI),1979,20643.12
+Europe (EI),1980,20143.018
+Europe (EI),1981,19619.156
+Europe (EI),1982,19254.523
+Europe (EI),1983,19430.572
+Europe (EI),1984,19941.371
+Europe (EI),1985,23836.264
+Europe (EI),1986,24230.05
+Europe (EI),1987,24737.186
+Europe (EI),1988,25006.652
+Europe (EI),1989,24906.775
+Europe (EI),1990,25407.842
+Europe (EI),1991,25031.76
+Europe (EI),1992,24253.186
+Europe (EI),1993,23853.578
+Europe (EI),1994,23375.94
+Europe (EI),1995,23899.543
+Europe (EI),1996,24494.725
+Europe (EI),1997,24384.232
+Europe (EI),1998,24523.84
+Europe (EI),1999,24349.336
+Europe (EI),2000,24500.533
+Europe (EI),2001,24731.285
+Europe (EI),2002,24663.81
+Europe (EI),2003,25080.055
+Europe (EI),2004,25476.209
+Europe (EI),2005,25597.455
+Europe (EI),2006,25796.318
+Europe (EI),2007,25590.6
+Europe (EI),2008,25468.209
+Europe (EI),2009,23933.27
+Europe (EI),2010,24878.736
+Europe (EI),2011,24298.912
+Europe (EI),2012,24240.96
+Europe (EI),2013,24037.062
+Europe (EI),2014,23182.053
+Europe (EI),2015,23369.383
+Europe (EI),2016,23645.736
+Europe (EI),2017,24010.906
+Europe (EI),2018,24007.285
+Europe (EI),2019,23677.338
+Europe (EI),2020,22085.639
+Europe (EI),2021,23130.674
+Europe (EI),2022,22167.121
+Europe (EI),2023,21643.543
+Europe (EI),2024,22010.53
+Middle East (EI),1965,538.7785
+Middle East (EI),1966,560.25806
+Middle East (EI),1967,592.2232
+Middle East (EI),1968,625.3117
+Middle East (EI),1969,662.2098
+Middle East (EI),1970,706.6072
+Middle East (EI),1971,760.16406
+Middle East (EI),1972,818.52423
+Middle East (EI),1973,902.278
+Middle East (EI),1974,960.3082
+Middle East (EI),1975,954.32404
+Middle East (EI),1976,1075.8164
+Middle East (EI),1977,1224.6593
+Middle East (EI),1978,1297.94
+Middle East (EI),1979,1517.8438
+Middle East (EI),1980,1464.8408
+Middle East (EI),1981,1592.7097
+Middle East (EI),1982,1756.6442
+Middle East (EI),1983,1930.4432
+Middle East (EI),1984,2180.7944
+Middle East (EI),1985,2308.0295
+Middle East (EI),1986,2422.0637
+Middle East (EI),1987,2578.7434
+Middle East (EI),1988,2728.767
+Middle East (EI),1989,2873.3176
+Middle East (EI),1990,2990.5286
+Middle East (EI),1991,3095.3562
+Middle East (EI),1992,3396.4736
+Middle East (EI),1993,3491.1543
+Middle East (EI),1994,3879.055
+Middle East (EI),1995,3999.88
+Middle East (EI),1996,4124.655
+Middle East (EI),1997,4334.61
+Middle East (EI),1998,4451.324
+Middle East (EI),1999,4533.8926
+Middle East (EI),2000,4776.225
+Middle East (EI),2001,5024.0923
+Middle East (EI),2002,5326.0405
+Middle East (EI),2003,5525.423
+Middle East (EI),2004,5994.2153
+Middle East (EI),2005,6353.4873
+Middle East (EI),2006,6693.197
+Middle East (EI),2007,7000.7656
+Middle East (EI),2008,7521.5737
+Middle East (EI),2009,7635.4
+Middle East (EI),2010,8212.998
+Middle East (EI),2011,8534.159
+Middle East (EI),2012,8857.138
+Middle East (EI),2013,9137.671
+Middle East (EI),2014,9473.299
+Middle East (EI),2015,9755.346
+Middle East (EI),2016,10095.016
+Middle East (EI),2017,10252.855
+Middle East (EI),2018,10279.191
+Middle East (EI),2019,10434.318
+Middle East (EI),2020,10225.152
+Middle East (EI),2021,10473.002
+Middle East (EI),2022,10985.318
+Middle East (EI),2023,11340.613
+Middle East (EI),2024,11597.1875
+North America (EI),1965,16122.0625
+North America (EI),1966,17036.738
+North America (EI),1967,17641.38
+North America (EI),1968,18709.74
+North America (EI),1969,19707.2
+North America (EI),1970,20478.436
+North America (EI),1971,20940.984
+North America (EI),1972,22057.932
+North America (EI),1973,23098.809
+North America (EI),1974,22723.688
+North America (EI),1975,22204.002
+North America (EI),1976,23407.38
+North America (EI),1977,24099.895
+North America (EI),1978,24696.018
+North America (EI),1979,25076.646
+North America (EI),1980,24369.975
+North America (EI),1981,23835.945
+North America (EI),1982,22977.082
+North America (EI),1983,22883.482
+North America (EI),1984,24082.678
+North America (EI),1985,24175.916
+North America (EI),1986,24357.207
+North America (EI),1987,25169.78
+North America (EI),1988,26256.895
+North America (EI),1989,26884.043
+North America (EI),1990,26936.85
+North America (EI),1991,26958.227
+North America (EI),1992,27398.945
+North America (EI),1993,27961.777
+North America (EI),1994,28589.932
+North America (EI),1995,29164.643
+North America (EI),1996,30116.297
+North America (EI),1997,30358.04
+North America (EI),1998,30528.703
+North America (EI),1999,31113.287
+North America (EI),2000,31889.902
+North America (EI),2001,31170.727
+North America (EI),2002,31711.766
+North America (EI),2003,31836.07
+North America (EI),2004,32511.084
+North America (EI),2005,32729.432
+North America (EI),2006,32419.008
+North America (EI),2007,33053.938
+North America (EI),2008,32432.746
+North America (EI),2009,30948.273
+North America (EI),2010,31839.555
+North America (EI),2011,31851.092
+North America (EI),2012,31190.951
+North America (EI),2013,31975.838
+North America (EI),2014,32235.64
+North America (EI),2015,31974.3
+North America (EI),2016,31976.268
+North America (EI),2017,32178.498
+North America (EI),2018,33135.816
+North America (EI),2019,32898.652
+North America (EI),2020,30535.898
+North America (EI),2021,32017.352
+North America (EI),2022,32773.895
+North America (EI),2023,32398.55
+North America (EI),2024,32724.998
+South and Central America (EI),1965,1365.6196
+South and Central America (EI),1966,1447.9718
+South and Central America (EI),1967,1503.7281
+South and Central America (EI),1968,1591.9152
+South and Central America (EI),1969,1660.7496
+South and Central America (EI),1970,1789.6825
+South and Central America (EI),1971,1881.2551
+South and Central America (EI),1972,2032.5612
+South and Central America (EI),1973,2232.8208
+South and Central America (EI),1974,2363.8708
+South and Central America (EI),1975,2384.0388
+South and Central America (EI),1976,2540.417
+South and Central America (EI),1977,2699.9949
+South and Central America (EI),1978,2842.9377
+South and Central America (EI),1979,3025.432
+South and Central America (EI),1980,3137.9573
+South and Central America (EI),1981,3124.9631
+South and Central America (EI),1982,3167.8901
+South and Central America (EI),1983,3189.5022
+South and Central America (EI),1984,3321.3394
+South and Central America (EI),1985,3426.958
+South and Central America (EI),1986,3628.1252
+South and Central America (EI),1987,3764.8723
+South and Central America (EI),1988,3896.185
+South and Central America (EI),1989,3972.1912
+South and Central America (EI),1990,3996.7788
+South and Central America (EI),1991,4113.946
+South and Central America (EI),1992,4254.7617
+South and Central America (EI),1993,4422.7896
+South and Central America (EI),1994,4686.5415
+South and Central America (EI),1995,4907.908
+South and Central America (EI),1996,5118.7075
+South and Central America (EI),1997,5389.288
+South and Central America (EI),1998,5562.5073
+South and Central America (EI),1999,5573.4077
+South and Central America (EI),2000,5797.6807
+South and Central America (EI),2001,5798.7554
+South and Central America (EI),2002,5860.1377
+South and Central America (EI),2003,5910.2827
+South and Central America (EI),2004,6231.639
+South and Central America (EI),2005,6424.156
+South and Central America (EI),2006,6750.559
+South and Central America (EI),2007,7036.7173
+South and Central America (EI),2008,7218.146
+South and Central America (EI),2009,7139.8613
+South and Central America (EI),2010,7491.8794
+South and Central America (EI),2011,7789.795
+South and Central America (EI),2012,8027.735
+South and Central America (EI),2013,8206.568
+South and Central America (EI),2014,8284.022
+South and Central America (EI),2015,8273.75
+South and Central America (EI),2016,8219.604
+South and Central America (EI),2017,8268.358
+South and Central America (EI),2018,8191.066
+South and Central America (EI),2019,8158.5854
+South and Central America (EI),2020,7512.08
+South and Central America (EI),2021,8050.8813
+South and Central America (EI),2022,8434.246
+South and Central America (EI),2023,8642.879
+South and Central America (EI),2024,8776.719

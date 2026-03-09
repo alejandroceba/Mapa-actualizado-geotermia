@@ -4,7 +4,7 @@
     "subtitle": "[Primary energy](#dod:primaryenergy) consumption is measured in [terawatt-hours](#dod:watt-hours), using the [substitution method](#dod:substitutionmethod).",
     "note": "The data includes only commercially-traded fuels (coal, oil, gas), nuclear and modern renewables used in electricity production, but not traditional biomass.",
     "citation": "Energy Institute - Statistical Review of World Energy (2025)",
-    "originalChartUrl": "https://ourworldindata.org/grapher/primary-energy-consumption-by-region?tab=discrete-bar&time=latest&v=1&csvType=filtered&useColumnShortNames=false",
+    "originalChartUrl": "https://ourworldindata.org/grapher/primary-energy-consumption-by-region?time=earliest..2024&v=1&csvType=filtered&useColumnShortNames=false",
     "selection": [
       "Asia Pacific (EI)",
       "Africa (EI)",
@@ -32,9 +32,8 @@
       "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1077647.metadata.json"
     }
   },
-  "dateDownloaded": "2026-02-26",
+  "dateDownloaded": "2026-03-09",
   "activeFilters": {
-    "tab": "discrete-bar",
-    "time": "latest"
+    "time": "earliest..2024"
   }
 }

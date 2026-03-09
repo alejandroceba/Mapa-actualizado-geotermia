@@ -4,63 +4,7 @@
     "href": "notebooks/001_graphs.html",
     "title": "Mapa actualizado capacidad geotérmica",
     "section": "",
-    "text": "import pandas as pd \nimport numpy as np\nimport matplotlib.pyplot as plt\nimport plotly.express as px\n\n\nf = \"../data/iea_total_energy_supply_by_source_world__2023.csv\"\ndf = pd.read_csv(f)\nfig = px.pie(df, values=\"Valor\", names=\"Fuente\")\nfig.update_traces(textinfo='percent+value', texttemplate=\"%{percent}&lt;br&gt;%{value} TJ\")\nfig.show()\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1\n\n\n\n\n\nf = \"../data/primary-energy-consumption-by-region.csv\"\ndf = pd.read_csv(f)\ndf[\"E_TJ\"] = df[\"Consumo de energía primaria\"] * 3600\nfig = px.pie(df, values=\"E_TJ\", names=\"Región\")\nfig.update_traces(textinfo='percent+value', texttemplate=\"%{percent}&lt;br&gt;%{value} TJ\")\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json"
-  },
-  {
-    "objectID": "index.html#suministro-total-de-energía-por-fuente-mundo-2023-iea_world_2025",
-    "href": "index.html#suministro-total-de-energía-por-fuente-mundo-2023-iea_world_2025",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Suministro total de energía por fuente, mundo, 2023, [1]",
-    "text": "Suministro total de energía por fuente, mundo, 2023, [1]\n\n\n        \n        \n        \n\n\n                            \n                                            \n\n\n\n\nTotal =  633700470 TJ"
-  },
-  {
-    "objectID": "index.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
-    "href": "index.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Consumo de energía primaria por región, 2024 [2]",
-    "text": "Consumo de energía primaria por región, 2024 [2]\n\n\n                            \n                                            \n\n\n\n\nTotal =  593989893.0 TJ"
-  },
-  {
-    "objectID": "index.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-2023",
-    "href": "index.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Contribución de las energías renovables al suministro total de energía primaria, 2023",
-    "text": "Contribución de las energías renovables al suministro total de energía primaria, 2023"
-  },
-  {
-    "objectID": "index.html#consumo-de-petróleo-per-cápita-por-región-2023",
-    "href": "index.html#consumo-de-petróleo-per-cápita-por-región-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Consumo de petróleo per cápita por región, 2023",
-    "text": "Consumo de petróleo per cápita por región, 2023"
-  },
-  {
-    "objectID": "index.html#contribución-de-la-generación-eléctrica-por-fuente-2023",
-    "href": "index.html#contribución-de-la-generación-eléctrica-por-fuente-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Contribución de la generación eléctrica por fuente, 2023",
-    "text": "Contribución de la generación eléctrica por fuente, 2023"
-  },
-  {
-    "objectID": "index.html#contribución-de-la-generación-eléctrica-por-región-2023",
-    "href": "index.html#contribución-de-la-generación-eléctrica-por-región-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Contribución de la generación eléctrica por región, 2023",
-    "text": "Contribución de la generación eléctrica por región, 2023"
-  },
-  {
-    "objectID": "index.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050",
-    "href": "index.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Total del consumo mundial por fuente de energía, 2023 - 2050",
-    "text": "Total del consumo mundial por fuente de energía, 2023 - 2050"
-  },
-  {
-    "objectID": "index.html#mayores-importadores-netos-de-combustibles-fósiles-2023",
-    "href": "index.html#mayores-importadores-netos-de-combustibles-fósiles-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Mayores importadores netos de combustibles fósiles, 2023",
-    "text": "Mayores importadores netos de combustibles fósiles, 2023"
+    "text": "import pandas as pd \nimport numpy as np\nimport matplotlib.pyplot as plt\nimport plotly.express as px\n\n\nf = \"../data/3960AFa8.csv\"\ndf = pd.read_csv(f,skiprows=3)\nenergy_columns = [col for col in df.columns if col not in ['Año', 'Unidades']]\n\nfig = px.area(df, \n              x='Año', \n              y=energy_columns,\n              labels={'value': 'Energía primaria [TJ]', 'variable': 'Fuente'})\nfig.update_layout(hovermode='x unified')\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nfig = px.area(df, \n              x='Año', \n              y=energy_columns,\n              groupnorm=\"percent\",\n              labels={'value': '%', 'variable': 'Fuente'})\nfig.update_layout(hovermode='x unified')\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nf = \"../data/primary-energy-consumption-by-region.csv\"\ndf2 = pd.read_csv(f)\nregion_mapping = {\n    'Africa (EI)': 'África',\n    'Asia Pacific (EI)': 'Asia Pacífico',\n    'Europe (EI)': 'Europa',\n    'Middle East (EI)': 'Medio Oriente',\n    'North America (EI)': 'Norteamérica',\n    'South and Central America (EI)': 'Sudamérica y Centroamérica'\n}\ndf2['Entity'] = df2['Entity'].replace(region_mapping)\nfig = px.area(\n    df2,\n    x=\"Year\",\n    y=\"Primary energy consumption\",\n    color=\"Entity\",\n    labels={\n        \"Year\": \"Año\",\n        \"Primary energy consumption\": \"Energía primaria [TJ]\",\n        \"Entity\": \"Región\",\n    },\n)\nfig.update_layout(hovermode=\"x unified\")\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nfig = px.area(\n    df2,\n    x=\"Year\",\n    y=\"Primary energy consumption\",\n    color=\"Entity\",\n    labels={\n        \"Year\": \"Año\",\n        \"Primary energy consumption\": \"%\",\n        \"Entity\": \"Región\",\n    },\n    groupnorm=\"percent\"\n)\nfig.update_layout(hovermode=\"x unified\")\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json"
   },
   {
     "objectID": "index.html#emisiones-de-co2-por-fuente-de-energía-2023",
@@ -102,7 +46,7 @@
     "href": "index.html#mapa-de-capacidad-instalada-geotérmica",
     "title": "1 La geotermia como energía renovable",
     "section": "Mapa de capacidad instalada geotérmica",
-    "text": "Mapa de capacidad instalada geotérmica\nLos datos de [3] corresponden al promedio de 2024, los de [4] a marzo de 2025 y los de [5] a finales de 2025."
+    "text": "Mapa de capacidad instalada geotérmica\nLos datos de [3] corresponden al promedio de 2024, los de [4] a marzo de 2025 y los de [5] a finales de 2025.\n\n\n/tmp/ipykernel_29211/3960948908.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
   },
   {
     "objectID": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
@@ -123,7 +67,7 @@
     "href": "data/readme.html",
     "title": "Primary energy consumption by world region - Data package",
     "section": "",
-    "text": "This data package contains the data that powers the chart “Primary energy consumption by world region” on the Our World in Data website. It was downloaded on February 26, 2026.\n\n\nA filtered subset of the full data was downloaded. The following filters were applied: - tab: discrete-bar - time: latest\n\n\n\nThe high level structure of the CSV file is that each row is an observation for an entity (usually a country or region) and a timepoint (usually a year).\nThe first two columns in the CSV file are “Entity” and “Code”. “Entity” is the name of the entity (e.g. “United States”). “Code” is the OWID internal entity code that we use if the entity is a country or region. For most countries, this is the same as the iso alpha-3 code of the entity (e.g. “USA”) - for non-standard countries like historical countries these are custom codes.\nThe third column is either “Year” or “Day”. If the data is annual, this is “Year” and contains only the year as an integer. If the column is “Day”, the column contains a date string in the form “YYYY-MM-DD”.\nThe final column is the data column, which is the time series that powers the chart. If the CSV data is downloaded using the “full data” option, then the column corresponds to the time series below. If the CSV data is downloaded using the “only selected data visible in the chart” option then the data column is transformed depending on the chart type and thus the association with the time series might not be as straightforward.\n\n\n\nThe .metadata.json file contains metadata about the data package. The “charts” key contains information to recreate the chart, like the title, subtitle etc.. The “columns” key contains information about each of the columns in the csv, like the unit, timespan covered, citation for the data etc..\n\n\n\nOur World in Data is almost never the original producer of the data - almost all of the data we use has been compiled by others. If you want to re-use data, it is your responsibility to ensure that you adhere to the sources’ license and to credit them correctly. Please note that a single time series may have more than one source - e.g. when we stich together data from different time periods by different producers or when we calculate per capita metrics using population data from a second source.\n\n\n\n\n\n\nComprises commercially-traded fuels, including modern renewables used to generate electricity. Energy from all sources of non-fossil power generation is accounted for on an input-equivalent basis. Last updated: June 27, 2025\nNext update: June 2026\nDate range: 1965–2024\nUnit: terawatt-hours\n\n\n\n\nIf you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data\n\n\n\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Primary energy consumption” [dataset]. Energy Institute, “Statistical Review of World Energy” [original data]. Source: Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World In Data\n\n\n\n\n\n\nRetrieved on: 2025-06-27\nRetrieved from: https://www.energyinst.org/statistical-review/"
+    "text": "This data package contains the data that powers the chart “Primary energy consumption by world region” on the Our World in Data website. It was downloaded on March 09, 2026.\n\n\nA filtered subset of the full data was downloaded. The following filters were applied: - time: earliest..2024\n\n\n\nThe high level structure of the CSV file is that each row is an observation for an entity (usually a country or region) and a timepoint (usually a year).\nThe first two columns in the CSV file are “Entity” and “Code”. “Entity” is the name of the entity (e.g. “United States”). “Code” is the OWID internal entity code that we use if the entity is a country or region. For most countries, this is the same as the iso alpha-3 code of the entity (e.g. “USA”) - for non-standard countries like historical countries these are custom codes.\nThe third column is either “Year” or “Day”. If the data is annual, this is “Year” and contains only the year as an integer. If the column is “Day”, the column contains a date string in the form “YYYY-MM-DD”.\nThe final column is the data column, which is the time series that powers the chart. If the CSV data is downloaded using the “full data” option, then the column corresponds to the time series below. If the CSV data is downloaded using the “only selected data visible in the chart” option then the data column is transformed depending on the chart type and thus the association with the time series might not be as straightforward.\n\n\n\nThe .metadata.json file contains metadata about the data package. The “charts” key contains information to recreate the chart, like the title, subtitle etc.. The “columns” key contains information about each of the columns in the csv, like the unit, timespan covered, citation for the data etc..\n\n\n\nOur World in Data is almost never the original producer of the data - almost all of the data we use has been compiled by others. If you want to re-use data, it is your responsibility to ensure that you adhere to the sources’ license and to credit them correctly. Please note that a single time series may have more than one source - e.g. when we stich together data from different time periods by different producers or when we calculate per capita metrics using population data from a second source.\n\n\n\n\n\n\nComprises commercially-traded fuels, including modern renewables used to generate electricity. Energy from all sources of non-fossil power generation is accounted for on an input-equivalent basis. Last updated: June 27, 2025\nNext update: June 2026\nDate range: 1965–2024\nUnit: terawatt-hours\n\n\n\n\nIf you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data\n\n\n\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Primary energy consumption” [dataset]. Energy Institute, “Statistical Review of World Energy” [original data]. Source: Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World In Data\n\n\n\n\n\n\nRetrieved on: 2025-06-27\nRetrieved from: https://www.energyinst.org/statistical-review/"
   },
   {
     "objectID": "data/readme.html#csv-structure",

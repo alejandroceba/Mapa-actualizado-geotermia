@@ -6,29 +6,49 @@ execute:
   echo: false
 jupyter: python3
 format:
-  revealjs:
+  html:
     theme: "default"
     code-overflow: scroll
 ---
 
 # 1.1 Panorama mundial de energía y energías renovables
 
-## Suministro total de energía por fuente, mundo, 2023, @iea_world_2025
+## Suministro total de energía por fuente, mundo, 1990-2023, @iea_world_2025
 
 ```{python}
 import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
-f = "data/iea_total_energy_supply_by_source_world__2023.csv"
-df1 = pd.read_csv(f)
-fig = px.pie(df1, values="Valor", names="Fuente")
-fig.update_traces(textinfo='percent+value', texttemplate="%{percent}<br>%{value} TJ")
+
+f = "data/3960AFa8.csv"
+df = pd.read_csv(f,skiprows=3)
+energy_columns = [col for col in df.columns if col not in ['Año', 'Unidades']]
+
+fig = px.area(df, 
+              x='Año', 
+              y=energy_columns,
+              labels={'value': 'Energía primaria [TJ]', 'variable': 'Fuente'})
+fig.update_layout(hovermode='x unified')
 fig.show()
 ```
 
 ```{python}
-print("Total = ", df1["Valor"].sum(), "TJ")
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+
+f = "data/3960AFa8.csv"
+df = pd.read_csv(f,skiprows=3)
+energy_columns = [col for col in df.columns if col not in ['Año', 'Unidades']]
+fig = px.area(df, 
+              x='Año', 
+              y=energy_columns,
+              groupnorm="percent",
+              labels={'value': '%', 'variable': 'Fuente'})
+fig.update_layout(hovermode='x unified')
+fig.show()
 ```
 
 ## Consumo de energía primaria por región, 2024 @energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025
@@ -40,14 +60,60 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 f = "data/primary-energy-consumption-by-region.csv"
 df2 = pd.read_csv(f)
-df2["E_TJ"] = df2["Consumo de energía primaria"] * 3600
-fig = px.pie(df2, values="E_TJ", names="Región")
-fig.update_traces(textinfo='percent+value', texttemplate="%{percent}<br>%{value} TJ")
+region_mapping = {
+    'Africa (EI)': 'África',
+    'Asia Pacific (EI)': 'Asia Pacífico',
+    'Europe (EI)': 'Europa',
+    'Middle East (EI)': 'Medio Oriente',
+    'North America (EI)': 'Norteamérica',
+    'South and Central America (EI)': 'Sudamérica y Centroamérica'
+}
+df2['Entity'] = df2['Entity'].replace(region_mapping)
+fig = px.area(
+    df2,
+    x="Year",
+    y="Primary energy consumption",
+    color="Entity",
+    labels={
+        "Year": "Año",
+        "Primary energy consumption": "Energía primaria [TJ]",
+        "Entity": "Región",
+    },
+)
+fig.update_layout(hovermode="x unified")
 fig.show()
 ```
 
 ```{python}
-print("Total = ", df2["E_TJ"].sum(), "TJ")
+import pandas as pd 
+import numpy as np
+import matplotlib.pyplot as plt
+import plotly.express as px
+f = "data/primary-energy-consumption-by-region.csv"
+df2 = pd.read_csv(f)
+region_mapping = {
+    'Africa (EI)': 'África',
+    'Asia Pacific (EI)': 'Asia Pacífico',
+    'Europe (EI)': 'Europa',
+    'Middle East (EI)': 'Medio Oriente',
+    'North America (EI)': 'Norteamérica',
+    'South and Central America (EI)': 'Sudamérica y Centroamérica'
+}
+df2['Entity'] = df2['Entity'].replace(region_mapping)
+fig = px.area(
+    df2,
+    x="Year",
+    y="Primary energy consumption",
+    color="Entity",
+    labels={
+        "Year": "Año",
+        "Primary energy consumption": "%",
+        "Entity": "Región",
+    },
+    groupnorm="percent"
+)
+fig.update_layout(hovermode="x unified")
+fig.show()
 ```
 
 ## Contribución de las energías renovables al suministro total de energía primaria, 2023
