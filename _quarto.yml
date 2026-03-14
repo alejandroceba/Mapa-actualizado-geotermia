@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "qmd/*.qmd"
+    - "!notebooks/001_graphs.ipynb"
 bibliography: refs.bib
 csl: ieee-access.csl
 execute:

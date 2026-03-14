@@ -1,49 +1,152 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.33">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>1 Panorama mundial de energía, energías renovables y geotermia – Mapa actualizado capacidad geotérmica</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+    <title>graphs_embed – Mapa actualizado capacidad geotérmica</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+      /* CSS for syntax highlighting */
+      html { -webkit-text-size-adjust: 100%; }
+      pre > code.sourceCode { white-space: pre; position: relative; }
+      pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+      pre > code.sourceCode > span:empty { height: 1.2em; }
+      .sourceCode { overflow: visible; }
+      code.sourceCode > span { color: inherit; text-decoration: inherit; }
+      div.sourceCode { margin: 1em 0; }
+      pre.sourceCode { margin: 0; }
+      @media screen {
+      div.sourceCode { overflow: auto; }
+      }
+      @media print {
+      pre > code.sourceCode { white-space: pre-wrap; }
+      pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+      }
+      pre.numberSource code
+        { counter-reset: source-line 0; }
+      pre.numberSource code > span
+        { position: relative; left: -4em; counter-increment: source-line; }
+      pre.numberSource code > span > a:first-child::before
+        { content: counter(source-line);
+          position: relative; left: -1em; text-align: right; vertical-align: baseline;
+          border: none; display: inline-block;
+          -webkit-touch-callout: none; -webkit-user-select: none;
+          -khtml-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+          padding: 0 4px; width: 4em;
+        }
+      pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+      div.sourceCode
+        {   }
+      @media screen {
+      pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = '/';
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -60,7 +163,7 @@ div.csl-indent {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-a5b54745667f4b2caf270fdea195860a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
+     <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -86,18 +189,22 @@ div.csl-indent {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+}</script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>  
+        <link rel="stylesheet" href="../styles.css">
+      </head>
 
+  <body class="floating nav-fixed quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link"><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> graphs_embed.ipynb</h6>
 
-<link rel="stylesheet" href="../styles.css">
-</head>
+            <a href="../notebooks/graphs_embed.ipynb" class="btn btn-primary quarto-download-embed" download="graphs_embed.ipynb">Download Notebook</a>
+          </div>
 
-<body class="nav-fixed quarto-light">
-
-<div id="quarto-search-results"></div>
+     <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
@@ -117,7 +224,7 @@ div.csl-indent {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../qmd/01_panorama_mundial.html" aria-current="page"> 
+    <a class="nav-link" href="../qmd/01_panorama_mundial.html"> 
 <span class="menu-text">1 Panorama mundial</span></a>
   </li>  
   <li class="nav-item">
@@ -146,56 +253,55 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#panorama-mundial-de-energía-energías-renovables-y-geotermia" id="toc-panorama-mundial-de-energía-energías-renovables-y-geotermia" class="nav-link active" data-scroll-target="#panorama-mundial-de-energía-energías-renovables-y-geotermia">Panorama mundial de energía, energías renovables y geotermia</a>
-  <ul class="collapse">
-  <li><a href="#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" id="toc-suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" class="nav-link" data-scroll-target="#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025">Suministro total de energía por fuente, mundo, 1990-2023, <span class="citation" data-cites="iea_world_2025">[1]</span></a></li>
-  <li><a href="#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" id="toc-consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="nav-link" data-scroll-target="#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">Consumo de energía primaria por región, 2024 <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">[2]</span></a></li>
-  <li><a href="#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" id="toc-contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" class="nav-link" data-scroll-target="#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025">Contribución de las energías renovables al suministro total de energía primaria <span class="citation" data-cites="agencia_internacional_de_energia_iea_renewable_2025">[3]</span></a></li>
-  <li><a href="#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" id="toc-consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="nav-link" data-scroll-target="#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026">Consumo de petróleo per cápita por región <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025_per_2026">[4]</span></a></li>
-  <li><a href="#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" id="toc-contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" class="nav-link" data-scroll-target="#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020">Contribución de la generación eléctrica por fuente <span class="citation" data-cites="ritchie_electricity_2020">[5]</span></a></li>
-  <li><a href="#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" id="toc-contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" class="nav-link" data-scroll-target="#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate">Contribución de la generación eléctrica por región <span class="citation" data-cites="noauthor_per_nodate">[6]</span></a></li>
-  <li><a href="#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" id="toc-total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" class="nav-link" data-scroll-target="#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate">Total del consumo mundial por fuente de energía, 2023 - 2050 <span class="citation" data-cites="noauthor_international_nodate">[7]</span></a></li>
-  <li><a href="#mayores-importadores-netos-de-combustibles-fósiles-2023" id="toc-mayores-importadores-netos-de-combustibles-fósiles-2023" class="nav-link" data-scroll-target="#mayores-importadores-netos-de-combustibles-fósiles-2023">Mayores importadores netos de combustibles fósiles, 2023</a></li>
-  </ul></li>
-  </ul>
-<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="../notebooks/graphs_embed-preview.html"><i class="bi bi-journal-code"></i>graphs_embed.ipynb</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">1 Panorama mundial de energía, energías renovables y geotermia</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="panorama-mundial-de-energía-energías-renovables-y-geotermia" class="level1">
-<h1>Panorama mundial de energía, energías renovables y geotermia</h1>
-<p>Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.</p>
-<section id="suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" class="level2">
-<h2 class="anchored" data-anchor-id="suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025">Suministro total de energía por fuente, mundo, 1990-2023, <span class="citation" data-cites="iea_world_2025"><a href="#ref-iea_world_2025" role="doc-biblioref">[1]</a></span></h2>
-<p>Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.</p>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-panorama-fuentes-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.282427Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.282159Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.550790Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.549929Z&quot;}}" data-execution_count="3">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>    <div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="eaa5e347" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:42.817915Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:42.817145Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.260952Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.260284Z&quot;}}" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.graph_objects <span class="im">as</span> go</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> HTML</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="72f457f2" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.263608Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.263246Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.279992Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.279246Z&quot;}}" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> show_fig(fig):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> HTML(fig.to_html(full_html<span class="op">=</span><span class="va">False</span>, include_plotlyjs<span class="op">=</span><span class="st">'cdn'</span>))</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>region_mapping<span class="op">=</span>{<span class="st">'Africa (EI)'</span>:<span class="st">'África'</span>,<span class="st">'Asia Pacific (EI)'</span>:<span class="st">'Asia Pacífico'</span>,<span class="st">'Europe (EI)'</span>:<span class="st">'Europa'</span>,<span class="st">'Middle East (EI)'</span>:<span class="st">'Medio Oriente'</span>,<span class="st">'North America (EI)'</span>:<span class="st">'Norteamérica'</span>,<span class="st">'South and Central America (EI)'</span>:<span class="st">'Sudamérica y Centroamérica'</span>}</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>regiones<span class="op">=</span>[<span class="st">'Africa'</span>,<span class="st">'Asia'</span>,<span class="st">'Europe'</span>,<span class="st">'North America'</span>,<span class="st">'Oceania'</span>,<span class="st">'South America'</span>,<span class="st">'World'</span>]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>tr<span class="op">=</span>{<span class="st">'Africa'</span>:<span class="st">'África'</span>,<span class="st">'Asia'</span>:<span class="st">'Asia'</span>,<span class="st">'Europe'</span>:<span class="st">'Europa'</span>,<span class="st">'North America'</span>:<span class="st">'Norteamérica'</span>,<span class="st">'Oceania'</span>:<span class="st">'Oceanía'</span>,<span class="st">'South America'</span>:<span class="st">'Sudamérica'</span>,<span class="st">'World'</span>:<span class="st">'Mundo'</span>}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> parse_a2(path<span class="op">=</span><span class="st">'../data/A_A2_r_230822.081459.xlsx'</span>):</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    r<span class="op">=</span>pd.read_excel(path,sheet_name<span class="op">=</span><span class="st">'A2'</span>,skiprows<span class="op">=</span><span class="dv">5</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    yc<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> r.columns <span class="cf">if</span> <span class="bu">isinstance</span>(c,(<span class="bu">int</span>,<span class="bu">float</span>))]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    r<span class="op">=</span>r[r[<span class="st">'Region and fuel'</span>].notna()].copy()</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    r[<span class="st">'Region and fuel'</span>]<span class="op">=</span>r[<span class="st">'Region and fuel'</span>].astype(<span class="bu">str</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    r<span class="op">=</span>r[<span class="op">~</span>r[<span class="st">'Region and fuel'</span>].<span class="bu">str</span>.startswith(<span class="st">'Data source:'</span>)].copy()</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    rows<span class="op">=</span>[]<span class="op">;</span> cur<span class="op">=</span><span class="va">None</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _,row <span class="kw">in</span> r.iterrows():</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>        lab<span class="op">=</span>row[<span class="st">'Region and fuel'</span>].strip()<span class="op">;</span> vals<span class="op">=</span>row[yc]</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> vals.isna().<span class="bu">all</span>(): cur<span class="op">=</span>lab<span class="op">;</span> <span class="cf">continue</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        rows.append({<span class="st">'region'</span>:cur,<span class="st">'fuel'</span>:lab,<span class="op">**</span>{<span class="bu">int</span>(y):row[y] <span class="cf">for</span> y <span class="kw">in</span> yc}})</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    d<span class="op">=</span>pd.DataFrame(rows).melt(id_vars<span class="op">=</span>[<span class="st">'region'</span>,<span class="st">'fuel'</span>],var_name<span class="op">=</span><span class="st">'year'</span>,value_name<span class="op">=</span><span class="st">'consumo_quad_btu'</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">'consumo_kwh'</span>]<span class="op">=</span>d[<span class="st">'consumo_quad_btu'</span>]<span class="op">*</span><span class="fl">2.9307107e11</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">'fuel_es'</span>]<span class="op">=</span>d[<span class="st">'fuel'</span>].replace({<span class="st">'Liquid fuels'</span>:<span class="st">'Combustibles líquidos'</span>,<span class="st">'Natural gas'</span>:<span class="st">'Gas natural'</span>,<span class="st">'Coal'</span>:<span class="st">'Carbón'</span>,<span class="st">'Nuclear'</span>:<span class="st">'Nuclear'</span>,<span class="st">'Other'</span>:<span class="st">'Otras'</span>,<span class="st">'Total'</span>:<span class="st">'Total'</span>})</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    d[<span class="st">'region_es'</span>]<span class="op">=</span>d[<span class="st">'region'</span>].replace({<span class="st">'Americas'</span>:<span class="st">'Américas'</span>,<span class="st">'Europe and Eurasia'</span>:<span class="st">'Europa y Eurasia'</span>,<span class="st">'Asia Pacific'</span>:<span class="st">'Asia Pacífico'</span>,<span class="st">'Africa and Middle East'</span>:<span class="st">'África y Medio Oriente'</span>,<span class="st">'World'</span>:<span class="st">'Mundo'</span>})</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> d</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add_split(fig,x<span class="op">=</span><span class="dv">2026</span>):</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    fig.add_vline(x<span class="op">=</span>x,line_dash<span class="op">=</span><span class="st">'dash'</span>,line_color<span class="op">=</span><span class="st">'black'</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    fig.add_annotation(x<span class="op">=</span>x<span class="op">-</span><span class="fl">0.5</span>,y<span class="op">=</span><span class="fl">1.04</span>,xref<span class="op">=</span><span class="st">'x'</span>,yref<span class="op">=</span><span class="st">'paper'</span>,text<span class="op">=</span><span class="st">'Histórico'</span>,showarrow<span class="op">=</span><span class="va">False</span>,xanchor<span class="op">=</span><span class="st">'right'</span>)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    fig.add_annotation(x<span class="op">=</span>x<span class="op">+</span><span class="fl">0.5</span>,y<span class="op">=</span><span class="fl">1.04</span>,xref<span class="op">=</span><span class="st">'x'</span>,yref<span class="op">=</span><span class="st">'paper'</span>,text<span class="op">=</span><span class="st">'Proyección'</span>,showarrow<span class="op">=</span><span class="va">False</span>,xanchor<span class="op">=</span><span class="st">'left'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="cell-fig-panorama-fuentes-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.282427Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.282159Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.550790Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.549929Z&quot;}}" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'../data/3960AFa8.csv'</span>,skiprows<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>cols<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> d.columns <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> [<span class="st">'Año'</span>,<span class="st">'Unidades'</span>]]</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d,x<span class="op">=</span><span class="st">'Año'</span>,y<span class="op">=</span>cols,labels<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'Energía primaria [TJ]'</span>,<span class="st">'variable'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-panorama-fuentes-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="3">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-panorama-fuentes-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -207,10 +313,13 @@ Figure&nbsp;1
 </figcaption>
 </figure>
 </div>
-</div>
-<a class="quarto-notebook-link" id="nblink-1" href="../notebooks/graphs_embed-preview.html#cell-fig-panorama-fuentes-abs">Source: graphs_embed.ipynb</a></div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-panorama-fuentes-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.553137Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.552895Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.659129Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.658498Z&quot;}}" data-execution_count="4">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [4]:</pre></div><div id="cell-fig-panorama-fuentes-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.553137Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.552895Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.659129Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.658498Z&quot;}}" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'../data/3960AFa8.csv'</span>,skiprows<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>cols<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> d.columns <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> [<span class="st">'Año'</span>,<span class="st">'Unidades'</span>]]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d,x<span class="op">=</span><span class="st">'Año'</span>,y<span class="op">=</span>cols,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'value'</span>:<span class="st">'%'</span>,<span class="st">'variable'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-panorama-fuentes-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="4">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-panorama-fuentes-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -222,14 +331,13 @@ Figure&nbsp;2
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="level2">
-<h2 class="anchored" data-anchor-id="consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">Consumo de energía primaria por región, 2024 <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025"><a href="#ref-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" role="doc-biblioref">[2]</a></span></h2>
-<p>Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.</p>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.661189Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.660939Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.765245Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.764483Z&quot;}}" data-execution_count="5">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [5]:</pre></div><div id="cell-fig-primaria-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.661189Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.660939Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.765245Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.764483Z&quot;}}" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'../data/primary-energy-consumption-by-region.csv'</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>d[<span class="st">'Entity'</span>]<span class="op">=</span>d[<span class="st">'Entity'</span>].replace(region_mapping)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d,x<span class="op">=</span><span class="st">'Year'</span>,y<span class="op">=</span><span class="st">'Primary energy consumption'</span>,color<span class="op">=</span><span class="st">'Entity'</span>,labels<span class="op">=</span>{<span class="st">'Year'</span>:<span class="st">'Año'</span>,<span class="st">'Primary energy consumption'</span>:<span class="st">'Energía primaria [TJ]'</span>,<span class="st">'Entity'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="5">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-region-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -241,10 +349,13 @@ Figure&nbsp;3
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.768331Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.768001Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.869739Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.868909Z&quot;}}" data-execution_count="6">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [6]:</pre></div><div id="cell-fig-primaria-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.768331Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.768001Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.869739Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.868909Z&quot;}}" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'../data/primary-energy-consumption-by-region.csv'</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>d[<span class="st">'Entity'</span>]<span class="op">=</span>d[<span class="st">'Entity'</span>].replace(region_mapping)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d,x<span class="op">=</span><span class="st">'Year'</span>,y<span class="op">=</span><span class="st">'Primary energy consumption'</span>,color<span class="op">=</span><span class="st">'Entity'</span>,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'Year'</span>:<span class="st">'Año'</span>,<span class="st">'Primary energy consumption'</span>:<span class="st">'%'</span>,<span class="st">'Entity'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="6">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-region-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -256,14 +367,20 @@ Figure&nbsp;4
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" class="level2">
-<h2 class="anchored" data-anchor-id="contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025">Contribución de las energías renovables al suministro total de energía primaria <span class="citation" data-cites="agencia_internacional_de_energia_iea_renewable_2025"><a href="#ref-agencia_internacional_de_energia_iea_renewable_2025" role="doc-biblioref">[3]</a></span></h2>
-<p>Proyecciones diferentes escenarios.</p>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-renovables-escenarios" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.872512Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.872218Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.972904Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.972226Z&quot;}}" data-execution_count="7">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [7]:</pre></div><div id="cell-fig-renovables-escenarios" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.872512Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.872218Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:43.972904Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:43.972226Z&quot;}}" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'../data/iea_renovables_mundo_capacidad_es.csv'</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>s<span class="op">=</span>d[d[<span class="st">'producto'</span>]<span class="op">!=</span><span class="st">'Total'</span>].copy()<span class="op">;</span> m<span class="op">=</span>s[s[<span class="st">'escenario'</span>]<span class="op">==</span><span class="st">'Caso principal'</span>].copy()<span class="op">;</span> a<span class="op">=</span>s[s[<span class="st">'escenario'</span>]<span class="op">==</span><span class="st">'Caso acelerado'</span>].copy()<span class="op">;</span> t<span class="op">=</span>d[d[<span class="st">'escenario'</span>]<span class="op">==</span><span class="st">'Meta'</span>].copy()</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>prods<span class="op">=</span>m[<span class="st">'producto'</span>].drop_duplicates().tolist()<span class="op">;</span> colors<span class="op">=</span>px.colors.qualitative.Plotly<span class="op">;</span> cmap<span class="op">=</span>{p:colors[i<span class="op">%</span><span class="bu">len</span>(colors)] <span class="cf">for</span> i,p <span class="kw">in</span> <span class="bu">enumerate</span>(prods)}</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>go.Figure()</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> p <span class="kw">in</span> prods:</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    mp<span class="op">=</span>m[m[<span class="st">'producto'</span>]<span class="op">==</span>p].sort_values(<span class="st">'anio'</span>)<span class="op">;</span> ap<span class="op">=</span>a[a[<span class="st">'producto'</span>]<span class="op">==</span>p].sort_values(<span class="st">'anio'</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    fig.add_trace(go.Bar(x<span class="op">=</span>mp[<span class="st">'anio'</span>],y<span class="op">=</span>mp[<span class="st">'valor'</span>],name<span class="op">=</span>p,legendgroup<span class="op">=</span>p,offsetgroup<span class="op">=</span><span class="st">'Caso principal'</span>,marker<span class="op">=</span>{<span class="st">'color'</span>:cmap[p]}))</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    fig.add_trace(go.Bar(x<span class="op">=</span>ap[<span class="st">'anio'</span>],y<span class="op">=</span>ap[<span class="st">'valor'</span>],name<span class="op">=</span>p,legendgroup<span class="op">=</span>p,offsetgroup<span class="op">=</span><span class="st">'Caso acelerado'</span>,showlegend<span class="op">=</span><span class="va">False</span>,marker<span class="op">=</span>{<span class="st">'color'</span>:cmap[p],<span class="st">'pattern'</span>:{<span class="st">'shape'</span>:<span class="st">'/'</span>}}))</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>fig.add_hline(y<span class="op">=</span><span class="dv">11500</span>,line_dash<span class="op">=</span><span class="st">'dash'</span>,line_color<span class="op">=</span><span class="st">'black'</span>,annotation_text<span class="op">=</span><span class="st">'Meta COP28: triplicar renovables para 2030'</span>,annotation_position<span class="op">=</span><span class="st">'top left'</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>fig.add_trace(go.Scatter(x<span class="op">=</span>t[<span class="st">'anio'</span>],y<span class="op">=</span>t[<span class="st">'valor'</span>],mode<span class="op">=</span><span class="st">'markers+text'</span>,text<span class="op">=</span>[<span class="st">'Ambición renovable actual 2030'</span>],textposition<span class="op">=</span><span class="st">'top center'</span>,marker<span class="op">=</span>{<span class="st">'size'</span>:<span class="dv">10</span>,<span class="st">'symbol'</span>:<span class="st">'diamond'</span>,<span class="st">'color'</span>:<span class="st">'red'</span>}))</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>fig.update_layout(barmode<span class="op">=</span><span class="st">'stack'</span>,hovermode<span class="op">=</span><span class="st">'x unified'</span>,xaxis_title<span class="op">=</span><span class="st">'Año'</span>,yaxis_title<span class="op">=</span><span class="st">'Capacidad instalada [GW]'</span>,legend_title<span class="op">=</span><span class="st">'Tecnología'</span>)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-renovables-escenarios" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="7">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-renovables-escenarios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -275,13 +392,13 @@ Figure&nbsp;5
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="level2">
-<h2 class="anchored" data-anchor-id="consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026">Consumo de petróleo per cápita por región <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025_per_2026"><a href="#ref-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" role="doc-biblioref">[4]</a></span></h2>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-oil-percap-region" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.975122Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.974883Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:44.316707Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:44.315380Z&quot;}}" data-execution_count="8">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [8]:</pre></div><div id="cell-fig-oil-percap-region" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:43.975122Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:43.974883Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:44.316707Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:44.315380Z&quot;}}" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'https://ourworldindata.org/grapher/per-capita-oil.csv?v=1&amp;csvType=full&amp;useColumnShortNames=true'</span>,storage_options<span class="op">=</span>{<span class="st">'User-Agent'</span>:<span class="st">'Our World In Data data fetch/1.0'</span>})</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>d[d[<span class="st">'entity'</span>].isin(regiones)].copy()<span class="op">;</span> d[<span class="st">'entity'</span>]<span class="op">=</span>d[<span class="st">'entity'</span>].replace(tr)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.line(d,x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span><span class="st">'oil_per_capita__kwh'</span>,color<span class="op">=</span><span class="st">'entity'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'oil_per_capita__kwh'</span>:<span class="st">'Consumo de petróleo [kWh per cápita]'</span>,<span class="st">'entity'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-oil-percap-region" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="8">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-oil-percap-region-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -293,13 +410,14 @@ Figure&nbsp;6
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" class="level2">
-<h2 class="anchored" data-anchor-id="contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020">Contribución de la generación eléctrica por fuente <span class="citation" data-cites="ritchie_electricity_2020"><a href="#ref-ritchie_electricity_2020" role="doc-biblioref">[5]</a></span></h2>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-elec-fuente-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:44.320836Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:44.320533Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:44.719871Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:44.719123Z&quot;}}" data-execution_count="9">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [9]:</pre></div><div id="cell-fig-elec-fuente-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:44.320836Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:44.320533Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:44.719871Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:44.719123Z&quot;}}" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'https://ourworldindata.org/grapher/electricity-prod-source-stacked.csv?v=1&amp;csvType=full&amp;useColumnShortNames=true'</span>,storage_options<span class="op">=</span>{<span class="st">'User-Agent'</span>:<span class="st">'Our World In Data data fetch/1.0'</span>})</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>w<span class="op">=</span>d[d[<span class="st">'entity'</span>]<span class="op">==</span><span class="st">'World'</span>].copy()<span class="op">;</span> cm<span class="op">=</span>{<span class="st">'other_renewables_excluding_bioenergy_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Otras renovables (sin bioenergía)'</span>,<span class="st">'bioenergy_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Bioenergía'</span>,<span class="st">'solar_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Solar'</span>,<span class="st">'wind_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Eólica'</span>,<span class="st">'hydro_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Hidroeléctrica'</span>,<span class="st">'nuclear_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Nuclear'</span>,<span class="st">'oil_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Petróleo'</span>,<span class="st">'gas_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Gas'</span>,<span class="st">'coal_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Carbón'</span>}</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>sc<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> w.columns <span class="cf">if</span> c <span class="kw">in</span> cm]<span class="op">;</span> w<span class="op">=</span>w.rename(columns<span class="op">=</span>cm)<span class="op">;</span> src<span class="op">=</span>[cm[c] <span class="cf">for</span> c <span class="kw">in</span> sc]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(w,x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span>src,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'value'</span>:<span class="st">'Generación eléctrica [TWh]'</span>,<span class="st">'variable'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-elec-fuente-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="9">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-elec-fuente-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -311,10 +429,14 @@ Figure&nbsp;7
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-elec-fuente-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:44.722353Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:44.722095Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.126982Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.126277Z&quot;}}" data-execution_count="10">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [10]:</pre></div><div id="cell-fig-elec-fuente-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:44.722353Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:44.722095Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.126982Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.126277Z&quot;}}" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'https://ourworldindata.org/grapher/electricity-prod-source-stacked.csv?v=1&amp;csvType=full&amp;useColumnShortNames=true'</span>,storage_options<span class="op">=</span>{<span class="st">'User-Agent'</span>:<span class="st">'Our World In Data data fetch/1.0'</span>})</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>w<span class="op">=</span>d[d[<span class="st">'entity'</span>]<span class="op">==</span><span class="st">'World'</span>].copy()<span class="op">;</span> cm<span class="op">=</span>{<span class="st">'other_renewables_excluding_bioenergy_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Otras renovables (sin bioenergía)'</span>,<span class="st">'bioenergy_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Bioenergía'</span>,<span class="st">'solar_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Solar'</span>,<span class="st">'wind_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Eólica'</span>,<span class="st">'hydro_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Hidroeléctrica'</span>,<span class="st">'nuclear_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Nuclear'</span>,<span class="st">'oil_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Petróleo'</span>,<span class="st">'gas_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Gas'</span>,<span class="st">'coal_generation__twh_chart_electricity_prod_source_stacked'</span>:<span class="st">'Carbón'</span>}</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>sc<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> w.columns <span class="cf">if</span> c <span class="kw">in</span> cm]<span class="op">;</span> w<span class="op">=</span>w.rename(columns<span class="op">=</span>cm)<span class="op">;</span> src<span class="op">=</span>[cm[c] <span class="cf">for</span> c <span class="kw">in</span> sc]</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(w,x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span>src,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'value'</span>:<span class="st">'%'</span>,<span class="st">'variable'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-elec-fuente-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="10">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-elec-fuente-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -326,13 +448,16 @@ Figure&nbsp;8
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" class="level2">
-<h2 class="anchored" data-anchor-id="contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate">Contribución de la generación eléctrica por región <span class="citation" data-cites="noauthor_per_nodate"><a href="#ref-noauthor_per_nodate" role="doc-biblioref">[6]</a></span></h2>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-elec-percap-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.129423Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.129138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.476860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.476179Z&quot;}}" data-execution_count="11">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [11]:</pre></div><div id="cell-fig-elec-percap-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.129423Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.129138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.476860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.476179Z&quot;}}" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'https://ourworldindata.org/grapher/per-capita-electricity-generation.csv?v=1&amp;csvType=full&amp;useColumnShortNames=true'</span>,storage_options<span class="op">=</span>{<span class="st">'User-Agent'</span>:<span class="st">'Our World In Data data fetch/1.0'</span>})</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>d[d[<span class="st">'entity'</span>].isin(regiones)].copy()<span class="op">;</span> d<span class="op">=</span>d[d[<span class="st">'year'</span>]<span class="op">&lt;=</span><span class="dv">2023</span>].copy()<span class="op">;</span> d[<span class="st">'region'</span>]<span class="op">=</span>d[<span class="st">'entity'</span>].replace(tr)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>v<span class="op">=</span><span class="st">'per_capita_electricity_generation__kwh'</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> v <span class="kw">not</span> <span class="kw">in</span> d.columns:</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  cs<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> d.columns <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> [<span class="st">'entity'</span>,<span class="st">'code'</span>,<span class="st">'year'</span>]]<span class="op">;</span> v<span class="op">=</span><span class="bu">next</span>((c <span class="cf">for</span> c <span class="kw">in</span> cs <span class="cf">if</span> <span class="st">'per_capita'</span> <span class="kw">in</span> c),cs[<span class="dv">0</span>])</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'region'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span>v,color<span class="op">=</span><span class="st">'region'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,v:<span class="st">'Generación eléctrica per cápita [kWh]'</span>,<span class="st">'region'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-elec-percap-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="11">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-elec-percap-region-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -344,10 +469,16 @@ Figure&nbsp;9
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-elec-percap-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.479518Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.479233Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.820149Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.819197Z&quot;}}" data-execution_count="12">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [12]:</pre></div><div id="cell-fig-elec-percap-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.479518Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.479233Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:45.820149Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:45.819197Z&quot;}}" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>pd.read_csv(<span class="st">'https://ourworldindata.org/grapher/per-capita-electricity-generation.csv?v=1&amp;csvType=full&amp;useColumnShortNames=true'</span>,storage_options<span class="op">=</span>{<span class="st">'User-Agent'</span>:<span class="st">'Our World In Data data fetch/1.0'</span>})</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>d<span class="op">=</span>d[d[<span class="st">'entity'</span>].isin(regiones)].copy()<span class="op">;</span> d<span class="op">=</span>d[d[<span class="st">'year'</span>]<span class="op">&lt;=</span><span class="dv">2023</span>].copy()<span class="op">;</span> d[<span class="st">'region'</span>]<span class="op">=</span>d[<span class="st">'entity'</span>].replace(tr)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>v<span class="op">=</span><span class="st">'per_capita_electricity_generation__kwh'</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> v <span class="kw">not</span> <span class="kw">in</span> d.columns:</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  cs<span class="op">=</span>[c <span class="cf">for</span> c <span class="kw">in</span> d.columns <span class="cf">if</span> c <span class="kw">not</span> <span class="kw">in</span> [<span class="st">'entity'</span>,<span class="st">'code'</span>,<span class="st">'year'</span>]]<span class="op">;</span> v<span class="op">=</span><span class="bu">next</span>((c <span class="cf">for</span> c <span class="kw">in</span> cs <span class="cf">if</span> <span class="st">'per_capita'</span> <span class="kw">in</span> c),cs[<span class="dv">0</span>])</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'region'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span>v,color<span class="op">=</span><span class="st">'region'</span>,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,v:<span class="st">'%'</span>,<span class="st">'region'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-elec-percap-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="12">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-elec-percap-region-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -359,13 +490,12 @@ Figure&nbsp;10
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-<section id="total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" class="level2">
-<h2 class="anchored" data-anchor-id="total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate">Total del consumo mundial por fuente de energía, 2023 - 2050 <span class="citation" data-cites="noauthor_international_nodate"><a href="#ref-noauthor_international_nodate" role="doc-biblioref">[7]</a></span></h2>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-2050-fuente-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.823045Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.822763Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.098668Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.096868Z&quot;}}" data-execution_count="13">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [13]:</pre></div><div id="cell-fig-primaria-2050-fuente-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:45.823045Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:45.822763Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.098668Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.096868Z&quot;}}" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>dl<span class="op">=</span>parse_a2()<span class="op">;</span> d<span class="op">=</span>dl[(dl[<span class="st">'region'</span>]<span class="op">==</span><span class="st">'World'</span>)<span class="op">&amp;</span>(dl[<span class="st">'fuel'</span>]<span class="op">!=</span><span class="st">'Total'</span>)].copy()</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'fuel_es'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span><span class="st">'consumo_kwh'</span>,color<span class="op">=</span><span class="st">'fuel_es'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'consumo_kwh'</span>:<span class="st">'Consumo de energía primaria [kWh]'</span>,<span class="st">'fuel_es'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>add_split(fig)<span class="op">;</span> fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-2050-fuente-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="13">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-2050-fuente-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -377,10 +507,12 @@ Figure&nbsp;11
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-2050-fuente-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.101151Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.100892Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.256738Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.256057Z&quot;}}" data-execution_count="14">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [14]:</pre></div><div id="cell-fig-primaria-2050-fuente-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.101151Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.100892Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.256738Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.256057Z&quot;}}" data-execution_count="14">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>dl<span class="op">=</span>parse_a2()<span class="op">;</span> d<span class="op">=</span>dl[(dl[<span class="st">'region'</span>]<span class="op">==</span><span class="st">'World'</span>)<span class="op">&amp;</span>(dl[<span class="st">'fuel'</span>]<span class="op">!=</span><span class="st">'Total'</span>)].copy()</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'fuel_es'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span><span class="st">'consumo_kwh'</span>,color<span class="op">=</span><span class="st">'fuel_es'</span>,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'consumo_kwh'</span>:<span class="st">'%'</span>,<span class="st">'fuel_es'</span>:<span class="st">'Fuente'</span>})</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>add_split(fig)<span class="op">;</span> fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-2050-fuente-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="14">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-2050-fuente-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -392,10 +524,12 @@ Figure&nbsp;12
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-2050-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.259024Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.258747Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.395933Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.395234Z&quot;}}" data-execution_count="15">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [15]:</pre></div><div id="cell-fig-primaria-2050-region-abs" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.259024Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.258747Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.395933Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.395234Z&quot;}}" data-execution_count="15">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>dl<span class="op">=</span>parse_a2()<span class="op">;</span> d<span class="op">=</span>dl[(dl[<span class="st">'fuel'</span>]<span class="op">==</span><span class="st">'Total'</span>)<span class="op">&amp;</span>(dl[<span class="st">'region'</span>]<span class="op">!=</span><span class="st">'World'</span>)].copy()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'region_es'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span><span class="st">'consumo_kwh'</span>,color<span class="op">=</span><span class="st">'region_es'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'consumo_kwh'</span>:<span class="st">'Consumo de energía primaria [kWh]'</span>,<span class="st">'region_es'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>add_split(fig)<span class="op">;</span> fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-2050-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="15">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-2050-region-abs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -407,10 +541,12 @@ Figure&nbsp;13
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="quarto-embed-nb-cell">
-<div id="cell-fig-primaria-2050-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.398218Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.397954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.543525Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.542853Z&quot;}}" data-execution_count="16">
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [16]:</pre></div><div id="cell-fig-primaria-2050-region-pct" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.398218Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.397954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.543525Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.542853Z&quot;}}" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>dl<span class="op">=</span>parse_a2()<span class="op">;</span> d<span class="op">=</span>dl[(dl[<span class="st">'fuel'</span>]<span class="op">==</span><span class="st">'Total'</span>)<span class="op">&amp;</span>(dl[<span class="st">'region'</span>]<span class="op">!=</span><span class="st">'World'</span>)].copy()</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.area(d.sort_values([<span class="st">'region_es'</span>,<span class="st">'year'</span>]),x<span class="op">=</span><span class="st">'year'</span>,y<span class="op">=</span><span class="st">'consumo_kwh'</span>,color<span class="op">=</span><span class="st">'region_es'</span>,groupnorm<span class="op">=</span><span class="st">'percent'</span>,labels<span class="op">=</span>{<span class="st">'year'</span>:<span class="st">'Año'</span>,<span class="st">'consumo_kwh'</span>:<span class="st">'%'</span>,<span class="st">'region_es'</span>:<span class="st">'Región'</span>})</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>add_split(fig)<span class="op">;</span> fig.update_layout(hovermode<span class="op">=</span><span class="st">'x unified'</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div id="fig-primaria-2050-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="16">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-primaria-2050-region-pct-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -422,41 +558,170 @@ Figure&nbsp;14
 </figcaption>
 </figure>
 </div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [17]:</pre></div><div id="cell-fig-geotermia-mapa" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.549758Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.549509Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.643383Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.642732Z&quot;}}" data-execution_count="17">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>dg<span class="op">=</span>pd.read_csv(<span class="st">'../data/merged_geothermal.csv'</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>dm<span class="op">=</span>dg[[<span class="st">'Country'</span>,<span class="st">'2024 [1]'</span>,<span class="st">'2025 [2]'</span>,<span class="st">'2025 [3]'</span>]].copy()<span class="op">;</span> dm.columns<span class="op">=</span>[<span class="st">'País'</span>,<span class="st">'2024 [1]'</span>,<span class="st">'2025 [2]'</span>,<span class="st">'2025 [3]'</span>]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>dl<span class="op">=</span>dm.melt(id_vars<span class="op">=</span>[<span class="st">'País'</span>],var_name<span class="op">=</span><span class="st">'Año'</span>,value_name<span class="op">=</span><span class="st">'Capacidad [MW]'</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>fig<span class="op">=</span>px.choropleth(dl,locations<span class="op">=</span><span class="st">'País'</span>,locationmode<span class="op">=</span><span class="st">'country names'</span>,color<span class="op">=</span><span class="st">'Capacidad [MW]'</span>,hover_name<span class="op">=</span><span class="st">'País'</span>,animation_frame<span class="op">=</span><span class="st">'Año'</span>,color_continuous_scale<span class="op">=</span>px.colors.sequential.Plasma)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>fig.layout.updatemenus[<span class="dv">0</span>].buttons[<span class="dv">0</span>].args[<span class="dv">1</span>][<span class="st">'frame'</span>][<span class="st">'duration'</span>]<span class="op">=</span><span class="dv">1500</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>fig.layout.updatemenus[<span class="dv">0</span>].buttons[<span class="dv">0</span>].args[<span class="dv">1</span>][<span class="st">'transition'</span>][<span class="st">'duration'</span>]<span class="op">=</span><span class="dv">500</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>show_fig(fig)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>/tmp/ipykernel_21633/238512454.py:5: DeprecationWarning:
+
+The library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*.
+</code></pre>
 </div>
+<div id="fig-geotermia-mapa" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="17">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-geotermia-mapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.1.0.min.js" integrity="sha256-Ei4740bWZhaUTQuD6q9yQlgVCMPBz6CZWhevDYPv93A=" crossorigin="anonymous"></script>                <div id="c7a5a9de-a5db-4fbc-865b-53954b9b7c2a" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("c7a5a9de-a5db-4fbc-865b-53954b9b7c2a")) {                    Plotly.newPlot(                        "c7a5a9de-a5db-4fbc-865b-53954b9b7c2a",                        [{"coloraxis":"coloraxis","geo":"geo","hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003eA\u00f1o=2024 [1]\u003cbr\u003ePa\u00eds=%{location}\u003cbr\u003eCapacidad [MW]=%{z}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"locationmode":"country names","locations":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"name":"","z":{"dtype":"f8","bdata":"AAAAAABKpUCamZmZmZ2kQDMzMzMzf55AMQisHFoZm0CamZmZme2TQAAAAAAANI9ApHA9CtddjUBxPQrXo5yIQLgehetRHohAvp8aL92QfkDD9Shcj2pwQM3MzMzMLGpArkfhehSuZECF61G4HuVUQJqZmZmZWVRAAAAAAACASUCamZmZmZlIQAAAAAAAAEZAAAAAAACAQ0CamZmZmRk9QAAAAAAAwDlAZmZmZmYmMEAAAAAAAAAkQNv5fmq89B1AMzMzMzMzHUAAAAAAAAAIQDMzMzMzM9M\u002fAAAAAAAA0D+amZmZmZm5PwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8="},"type":"choropleth"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"geo":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"center":{}},"coloraxis":{"colorbar":{"title":{"text":"Capacidad [MW]"}},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"legend":{"tracegroupgap":0},"margin":{"t":60},"updatemenus":[{"buttons":[{"args":[null,{"frame":{"duration":1500,"redraw":true},"mode":"immediate","fromcurrent":true,"transition":{"duration":500,"easing":"linear"}}],"label":"&#9654;","method":"animate"},{"args":[[null],{"frame":{"duration":0,"redraw":true},"mode":"immediate","fromcurrent":true,"transition":{"duration":0,"easing":"linear"}}],"label":"&#9724;","method":"animate"}],"direction":"left","pad":{"r":10,"t":70},"showactive":false,"type":"buttons","x":0.1,"xanchor":"right","y":0,"yanchor":"top"}],"sliders":[{"active":0,"currentvalue":{"prefix":"A\u00f1o="},"len":0.9,"pad":{"b":10,"t":60},"steps":[{"args":[["2024 [1]"],{"frame":{"duration":0,"redraw":true},"mode":"immediate","fromcurrent":true,"transition":{"duration":0,"easing":"linear"}}],"label":"2024 [1]","method":"animate"},{"args":[["2025 [2]"],{"frame":{"duration":0,"redraw":true},"mode":"immediate","fromcurrent":true,"transition":{"duration":0,"easing":"linear"}}],"label":"2025 [2]","method":"animate"},{"args":[["2025 [3]"],{"frame":{"duration":0,"redraw":true},"mode":"immediate","fromcurrent":true,"transition":{"duration":0,"easing":"linear"}}],"label":"2025 [3]","method":"animate"}],"x":0.1,"xanchor":"left","y":0,"yanchor":"top"}]},                        {"responsive": true}                    ).then(function(){
+                            Plotly.addFrames('c7a5a9de-a5db-4fbc-865b-53954b9b7c2a', [{"data":[{"coloraxis":"coloraxis","geo":"geo","hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003eA\u00f1o=2024 [1]\u003cbr\u003ePa\u00eds=%{location}\u003cbr\u003eCapacidad [MW]=%{z}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"locationmode":"country names","locations":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"name":"","z":{"dtype":"f8","bdata":"AAAAAABKpUCamZmZmZ2kQDMzMzMzf55AMQisHFoZm0CamZmZme2TQAAAAAAANI9ApHA9CtddjUBxPQrXo5yIQLgehetRHohAvp8aL92QfkDD9Shcj2pwQM3MzMzMLGpArkfhehSuZECF61G4HuVUQJqZmZmZWVRAAAAAAACASUCamZmZmZlIQAAAAAAAAEZAAAAAAACAQ0CamZmZmRk9QAAAAAAAwDlAZmZmZmYmMEAAAAAAAAAkQNv5fmq89B1AMzMzMzMzHUAAAAAAAAAIQDMzMzMzM9M\u002fAAAAAAAA0D+amZmZmZm5PwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8="},"type":"choropleth"}],"name":"2024 [1]"},{"data":[{"coloraxis":"coloraxis","geo":"geo","hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003eA\u00f1o=2025 [2]\u003cbr\u003ePa\u00eds=%{location}\u003cbr\u003eCapacidad [MW]=%{z}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"locationmode":"country names","locations":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"name":"","z":{"dtype":"f8","bdata":"AAAAAAArrUDNzMzMzP+iQAAAAAAARJ5APQrXo3D4mkDNzMzMzIKVQAAAAAAAaI1AAAAAAACEiUAzMzMzM1uIQAAAAAAAEIpAmpmZmZlRg0AAAAAAAKBvQGZmZmZmZmpAMzMzMzPTY0AAAAAAAEBUQAAAAAAAAElAAAAAAAAAPkAAAAAAAABHQGZmZmZm5jJAAAAAAACAQUAAAAAAAAA4QAAAAAAAAPh\u002fMzMzMzMz+z\u002fNzMzMzAxCQM3MzMzMzBRAAAAAAAAAAAAzMzMzMzMLQAAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuQAAAAAAAABRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="},"type":"choropleth"}],"name":"2025 [2]"},{"data":[{"coloraxis":"coloraxis","geo":"geo","hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003eA\u00f1o=2025 [3]\u003cbr\u003ePa\u00eds=%{location}\u003cbr\u003eCapacidad [MW]=%{z}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"locationmode":"country names","locations":["United States","Indonesia","Philippines","T\u00fcrkiye","New Zealand","Mexico","Kenya","Iceland","Italy","Japan","Costa Rica","El Salvador","Nicaragua","Chile","Russia","Papua New Guinea","Guatemala","Germany","Honduras","Portugal","China","France","Croatia","Taiwan","Ethiopia","Hungary","Thailand","Austria","Australia","Armenia","Bangladesh","Bolivia","Canada","Colombia","Dominica","Ecuador","Greece","Guadeloupe","Iran","Laos","Montserrat","Peru","Saint Kitts and Nevis","Saint Vincent and the Grenadines","Slovakia","Solomon Islands","Switzerland","Tanzania","Uganda","United Kingdom","Zambia","Zimbabwe"],"name":"","z":{"dtype":"f8","bdata":"AAAAAADirkAAAAAAAGylQAAAAAAAyJ9AAAAAAAAUnEAAAAAAAKyTQAAAAAAAgI5AAAAAAACgjkAAAAAAAECJQAAAAAAAoIxAAAAAAAD4gkAAAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh\u002fAAAAAAAA+H8="},"type":"choropleth"}],"name":"2025 [3]"}]);
+                        }).then(function(){
+                            Plotly.animate('c7a5a9de-a5db-4fbc-865b-53954b9b7c2a', null);
+                        })                };            </script>        </div>
 </div>
-</section>
-<section id="mayores-importadores-netos-de-combustibles-fósiles-2023" class="level2">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-geotermia-mapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;15
+</figcaption>
+</figure>
+</div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [18]:</pre></div><div class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.645591Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.645335Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.665950Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.665061Z&quot;}}" data-execution_count="18">
+
+<div class="cell-container"><div class="cell-decorator"><pre>In [18]:</pre></div><div><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>dg<span class="op">=</span>pd.read_csv(<span class="st">'../data/merged_geothermal.csv'</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>a<span class="op">=</span>dg[[<span class="st">'Country'</span>,<span class="st">'2024 [1]'</span>]].sort_values(by<span class="op">=</span><span class="st">'2024 [1]'</span>,ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>b<span class="op">=</span>dg[[<span class="st">'Country'</span>,<span class="st">'2025 [2]'</span>]].sort_values(by<span class="op">=</span><span class="st">'2025 [2]'</span>,ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>c<span class="op">=</span>dg[[<span class="st">'Country'</span>,<span class="st">'2025 [3]'</span>]].sort_values(by<span class="op">=</span><span class="st">'2025 [3]'</span>,ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>top_10<span class="op">=</span>pd.concat([a,b,c],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>top_10.columns<span class="op">=</span>[<span class="st">'País'</span>,<span class="st">'2024 [1]'</span>,<span class="st">'País'</span>,<span class="st">'2025 [2]'</span>,<span class="st">'País'</span>,<span class="st">'2025 [3]'</span>]</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>top_10</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-geotermia-top10" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="18" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2026-03-14T19:37:46.645591Z&quot;,&quot;iopub.status.busy&quot;:&quot;2026-03-14T19:37:46.645335Z&quot;,&quot;iopub.status.idle&quot;:&quot;2026-03-14T19:37:46.665950Z&quot;,&quot;shell.execute_reply&quot;:&quot;2026-03-14T19:37:46.665061Z&quot;}}">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-geotermia-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Top 10 países con mayor capacidad instalada geotérmica
+</figcaption>
+<div aria-describedby="tbl-geotermia-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output cell-output-display" data-execution_count="18">
+<div>
 
 
+<table class="dataframe do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">País</th>
+<th data-quarto-table-cell-role="th">2024 [1]</th>
+<th data-quarto-table-cell-role="th">País</th>
+<th data-quarto-table-cell-role="th">2025 [2]</th>
+<th data-quarto-table-cell-role="th">País</th>
+<th data-quarto-table-cell-role="th">2025 [3]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>United States</td>
+<td>2725.000</td>
+<td>United States</td>
+<td>3733.50</td>
+<td>United States</td>
+<td>3953.0</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Indonesia</td>
+<td>2638.800</td>
+<td>Indonesia</td>
+<td>2431.90</td>
+<td>Indonesia</td>
+<td>2742.0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Philippines</td>
+<td>1951.800</td>
+<td>Philippines</td>
+<td>1937.00</td>
+<td>Philippines</td>
+<td>2034.0</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>Türkiye</td>
+<td>1734.338</td>
+<td>Türkiye</td>
+<td>1726.11</td>
+<td>Türkiye</td>
+<td>1797.0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>New Zealand</td>
+<td>1275.400</td>
+<td>New Zealand</td>
+<td>1376.70</td>
+<td>New Zealand</td>
+<td>1259.0</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>Mexico</td>
+<td>998.500</td>
+<td>Mexico</td>
+<td>941.00</td>
+<td>Kenya</td>
+<td>980.0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>Kenya</td>
+<td>939.730</td>
+<td>Italy</td>
+<td>834.00</td>
+<td>Mexico</td>
+<td>976.0</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>Iceland</td>
+<td>787.580</td>
+<td>Kenya</td>
+<td>816.50</td>
+<td>Italy</td>
+<td>916.0</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>Italy</td>
+<td>771.790</td>
+<td>Iceland</td>
+<td>779.40</td>
+<td>Iceland</td>
+<td>808.0</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>Japan</td>
+<td>489.054</td>
+<td>Japan</td>
+<td>618.20</td>
+<td>Japan</td>
+<td>607.0</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</figure>
+</div></div></div>
+</div></div>
 
 
-</section>
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Mayores importadores netos de combustibles fósiles, 2023</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-iea_world_2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[1] </div><div class="csl-right-inline">IEA, <span>“World energy balances. <span>IEA</span>.”</span> Accessed: Feb. 26, 2026. [Online]. Available: <a href="https://www.iea.org/data-and-statistics/data-product/world-energy-balances">https://www.iea.org/data-and-statistics/data-product/world-energy-balances</a></div>
-</div>
-<div id="ref-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[2] </div><div class="csl-right-inline">E. I. -Statistical Review of World Energy (2025) – with major processing by Our World in Data, <span>“Primary energy consumption by world region. Our world in data.”</span> Accessed: Feb. 26, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/primary-energy-consumption-by-region">https://ourworldindata.org/grapher/primary-energy-consumption-by-region</a></div>
-</div>
-<div id="ref-agencia_internacional_de_energia_iea_renewable_2025" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[3] </div><div class="csl-right-inline">A. I. de Energía (IEA), <span>“Renewable energy progress tracker – data tools. <span>IEA</span>.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://www.iea.org/data-and-statistics/data-tools/renewable-energy-progress-tracker">https://www.iea.org/data-and-statistics/data-tools/renewable-energy-progress-tracker</a></div>
-</div>
-<div id="ref-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">Energy Institute - Statistical Review of World Energy (2025), Population based on various sources (2024), and – with major processing by Our World in Data, <span>“Per capita oil consumption. Our world in data.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/per-capita-oil">https://ourworldindata.org/grapher/per-capita-oil</a></div>
-</div>
-<div id="ref-ritchie_electricity_2020" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[5] </div><div class="csl-right-inline">H. Ritchie and P. Rosado, <span>“Electricity mix,”</span> <em>Our World in Data</em>, Jul. 2020, Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/electricity-mix">https://ourworldindata.org/electricity-mix</a></div>
-</div>
-<div id="ref-noauthor_per_nodate" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[6] </div><div class="csl-right-inline"><span>“Per capita electricity generation. Our world in data.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/per-capita-electricity-generation?tab=line&amp;country=GBR~USA~IND~CHN&amp;time=1985..2025">https://ourworldindata.org/grapher/per-capita-electricity-generation?tab=line&amp;country=GBR~USA~IND~CHN&amp;time=1985..2025</a></div>
-</div>
-<div id="ref-noauthor_international_nodate" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[7] </div><div class="csl-right-inline"><span>“International energy outlook - u.s. Energy information administration (<span>EIA</span>).”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://www.eia.gov/outlooks/ieo/data.php">https://www.eia.gov/outlooks/ieo/data.php</a></div>
-</div>
-</div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+     </main> <!-- /main -->  <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -854,10 +1119,6 @@ Figure&nbsp;14
       }
     }
   });
-  </script>
-</div> <!-- /content -->
-
-
-
-
+  </script>  </div> <!-- /content --> 
+  
 </body></html>
