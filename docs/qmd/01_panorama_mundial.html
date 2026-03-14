@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>graphs – Mapa actualizado capacidad geotérmica</title>
+<title>1 Panorama mundial de energía, energías renovables y geotermia – Mapa actualizado capacidad geotérmica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -97,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../qmd/01_panorama_mundial.html"> 
+    <a class="nav-link active" href="../qmd/01_panorama_mundial.html" aria-current="page"> 
 <span class="menu-text">1 Panorama mundial</span></a>
   </li>  
   <li class="nav-item">
@@ -127,15 +147,54 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#panorama-mundial-de-energía-energías-renovables-y-geotermia" id="toc-panorama-mundial-de-energía-energías-renovables-y-geotermia" class="nav-link active" data-scroll-target="#panorama-mundial-de-energía-energías-renovables-y-geotermia">Panorama mundial de energía, energías renovables y geotermia</a>
+  <ul class="collapse">
+  <li><a href="#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" id="toc-suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" class="nav-link" data-scroll-target="#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025">Suministro total de energía por fuente, mundo, 1990-2023, <span class="citation" data-cites="iea_world_2025">[1]</span></a></li>
+  <li><a href="#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" id="toc-consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="nav-link" data-scroll-target="#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">Consumo de energía primaria por región, 2024 <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">[2]</span></a></li>
+  <li><a href="#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" id="toc-contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" class="nav-link" data-scroll-target="#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025">Contribución de las energías renovables al suministro total de energía primaria <span class="citation" data-cites="agencia_internacional_de_energia_iea_renewable_2025">[3]</span></a></li>
+  <li><a href="#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" id="toc-consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="nav-link" data-scroll-target="#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026">Consumo de petróleo per cápita por región <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025_per_2026">[4]</span></a></li>
+  <li><a href="#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" id="toc-contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" class="nav-link" data-scroll-target="#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020">Contribución de la generación eléctrica por fuente <span class="citation" data-cites="ritchie_electricity_2020">[5]</span></a></li>
+  <li><a href="#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" id="toc-contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" class="nav-link" data-scroll-target="#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate">Contribución de la generación eléctrica por región <span class="citation" data-cites="noauthor_per_nodate">[6]</span></a></li>
+  <li><a href="#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" id="toc-total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" class="nav-link" data-scroll-target="#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate">Total del consumo mundial por fuente de energía, 2023 - 2050 <span class="citation" data-cites="noauthor_international_nodate">[7]</span></a></li>
+  <li><a href="#mayores-importadores-netos-de-combustibles-fósiles-2023" id="toc-mayores-importadores-netos-de-combustibles-fósiles-2023" class="nav-link" data-scroll-target="#mayores-importadores-netos-de-combustibles-fósiles-2023">Mayores importadores netos de combustibles fósiles, 2023</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="../notebooks/001_graphs-preview.html"><i class="bi bi-journal-code"></i>001_graphs.ipynb</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">1 Panorama mundial de energía, energías renovables y geotermia</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="panorama-mundial-de-energía-energías-renovables-y-geotermia" class="level1">
+<h1>Panorama mundial de energía, energías renovables y geotermia</h1>
+<p>Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.</p>
+<section id="suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025" class="level2">
+<h2 class="anchored" data-anchor-id="suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025">Suministro total de energía por fuente, mundo, 1990-2023, <span class="citation" data-cites="iea_world_2025"><a href="#ref-iea_world_2025" role="doc-biblioref">[1]</a></span></h2>
+<p>Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.</p>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-panorama-fuentes-abs" class="cell" data-execution_count="2">
 <div id="fig-panorama-fuentes-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -148,6 +207,8 @@ Figure&nbsp;1: Suministro total de energía por fuente, mundo, 1990-2023
 </figure>
 </div>
 </div>
+<a class="quarto-notebook-link" id="nblink-1" href="../notebooks/001_graphs-preview.html#cell-fig-panorama-fuentes-abs">Source: 001_graphs.ipynb</a></div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-panorama-fuentes-pct" class="cell" data-execution_count="3">
 <div id="fig-panorama-fuentes-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -160,6 +221,12 @@ Figure&nbsp;2: Suministro total de energía por fuente, mundo, 1990-2023 (porcen
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="level2">
+<h2 class="anchored" data-anchor-id="consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025">Consumo de energía primaria por región, 2024 <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025"><a href="#ref-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" role="doc-biblioref">[2]</a></span></h2>
+<p>Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.</p>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-region-abs" class="cell" data-execution_count="4">
 <div id="fig-primaria-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -172,6 +239,8 @@ Figure&nbsp;3: Consumo de energía primaria por región (valores absolutos)
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-region-pct" class="cell" data-execution_count="5">
 <div id="fig-primaria-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -184,6 +253,12 @@ Figure&nbsp;4: Consumo de energía primaria por región (porcentajes)
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025" class="level2">
+<h2 class="anchored" data-anchor-id="contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025">Contribución de las energías renovables al suministro total de energía primaria <span class="citation" data-cites="agencia_internacional_de_energia_iea_renewable_2025"><a href="#ref-agencia_internacional_de_energia_iea_renewable_2025" role="doc-biblioref">[3]</a></span></h2>
+<p>Proyecciones diferentes escenarios.</p>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-renovables-escenarios" class="cell" data-execution_count="6">
 <div id="fig-renovables-escenarios" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -196,6 +271,11 @@ Figure&nbsp;5: Contribución de renovables al suministro primario (escenarios)
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="level2">
+<h2 class="anchored" data-anchor-id="consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026">Consumo de petróleo per cápita por región <span class="citation" data-cites="energy_institute_-_statistical_review_of_world_energy_2025_per_2026"><a href="#ref-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" role="doc-biblioref">[4]</a></span></h2>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-oil-percap-region" class="cell" data-execution_count="7">
 <div id="fig-oil-percap-region" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -208,6 +288,11 @@ Figure&nbsp;6: Consumo de petróleo per cápita por región
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020" class="level2">
+<h2 class="anchored" data-anchor-id="contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020">Contribución de la generación eléctrica por fuente <span class="citation" data-cites="ritchie_electricity_2020"><a href="#ref-ritchie_electricity_2020" role="doc-biblioref">[5]</a></span></h2>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-elec-fuente-abs" class="cell" data-execution_count="8">
 <div id="fig-elec-fuente-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -220,6 +305,8 @@ Figure&nbsp;7: Contribución de la generación eléctrica por fuente (valores ab
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-elec-fuente-pct" class="cell" data-execution_count="9">
 <div id="fig-elec-fuente-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -232,6 +319,11 @@ Figure&nbsp;8: Contribución de la generación eléctrica por fuente (porcentaje
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate" class="level2">
+<h2 class="anchored" data-anchor-id="contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate">Contribución de la generación eléctrica por región <span class="citation" data-cites="noauthor_per_nodate"><a href="#ref-noauthor_per_nodate" role="doc-biblioref">[6]</a></span></h2>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-elec-percap-region-abs" class="cell" data-execution_count="10">
 <div id="fig-elec-percap-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -244,6 +336,8 @@ Figure&nbsp;9: Generación eléctrica per cápita por región
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-elec-percap-region-pct" class="cell" data-execution_count="11">
 <div id="fig-elec-percap-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -256,6 +350,11 @@ Figure&nbsp;10: Generación eléctrica per cápita por región (porcentajes)
 </figure>
 </div>
 </div>
+</div>
+</section>
+<section id="total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate" class="level2">
+<h2 class="anchored" data-anchor-id="total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate">Total del consumo mundial por fuente de energía, 2023 - 2050 <span class="citation" data-cites="noauthor_international_nodate"><a href="#ref-noauthor_international_nodate" role="doc-biblioref">[7]</a></span></h2>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-2050-fuente-abs" class="cell" data-execution_count="12">
 <div id="fig-primaria-2050-fuente-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -268,6 +367,8 @@ Figure&nbsp;11: Consumo mundial de energía primaria por fuente (2023-2050)
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-2050-fuente-pct" class="cell" data-execution_count="13">
 <div id="fig-primaria-2050-fuente-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -280,6 +381,8 @@ Figure&nbsp;12: Consumo mundial de energía primaria por fuente (2023-2050, porc
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-2050-region-abs" class="cell" data-execution_count="14">
 <div id="fig-primaria-2050-region-abs" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -292,6 +395,8 @@ Figure&nbsp;13: Consumo de energía primaria por región (2023-2050)
 </figure>
 </div>
 </div>
+</div>
+<div class="quarto-embed-nb-cell">
 <div id="cell-fig-primaria-2050-region-pct" class="cell" data-execution_count="15">
 <div id="fig-primaria-2050-region-pct" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -304,151 +409,39 @@ Figure&nbsp;14: Consumo de energía primaria por región (2023-2050, porcentajes
 </figure>
 </div>
 </div>
-<div id="cell-fig-geotermia-mapa" class="cell" data-execution_count="16">
-<div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_11634/788365236.py:7: DeprecationWarning:
-
-The library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*.
-</code></pre>
 </div>
-<div id="fig-geotermia-mapa" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-geotermia-mapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<pre><code>Unable to display output for mime type(s): application/vnd.plotly.v1+json</code></pre>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-geotermia-mapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;15: Mapa de capacidad instalada geotérmica
-</figcaption>
-</figure>
-</div>
-</div>
-<div class="cell" data-execution_count="17">
-<div id="tbl-geotermia-top10" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="17">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-geotermia-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Top 10 países con mayor capacidad instalada geotérmica
-</figcaption>
-<div aria-describedby="tbl-geotermia-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell-output cell-output-display" data-execution_count="17">
-<div>
-
-
-<table class="dataframe do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">País</th>
-<th data-quarto-table-cell-role="th">2024 [1]</th>
-<th data-quarto-table-cell-role="th">País</th>
-<th data-quarto-table-cell-role="th">2025 [2]</th>
-<th data-quarto-table-cell-role="th">País</th>
-<th data-quarto-table-cell-role="th">2025 [3]</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>United States</td>
-<td>2725.000</td>
-<td>United States</td>
-<td>3733.50</td>
-<td>United States</td>
-<td>3953.0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Indonesia</td>
-<td>2638.800</td>
-<td>Indonesia</td>
-<td>2431.90</td>
-<td>Indonesia</td>
-<td>2742.0</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Philippines</td>
-<td>1951.800</td>
-<td>Philippines</td>
-<td>1937.00</td>
-<td>Philippines</td>
-<td>2034.0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Türkiye</td>
-<td>1734.338</td>
-<td>Türkiye</td>
-<td>1726.11</td>
-<td>Türkiye</td>
-<td>1797.0</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>New Zealand</td>
-<td>1275.400</td>
-<td>New Zealand</td>
-<td>1376.70</td>
-<td>New Zealand</td>
-<td>1259.0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Mexico</td>
-<td>998.500</td>
-<td>Mexico</td>
-<td>941.00</td>
-<td>Kenya</td>
-<td>980.0</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">6</td>
-<td>Kenya</td>
-<td>939.730</td>
-<td>Italy</td>
-<td>834.00</td>
-<td>Mexico</td>
-<td>976.0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">7</td>
-<td>Iceland</td>
-<td>787.580</td>
-<td>Kenya</td>
-<td>816.50</td>
-<td>Italy</td>
-<td>916.0</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">8</td>
-<td>Italy</td>
-<td>771.790</td>
-<td>Iceland</td>
-<td>779.40</td>
-<td>Iceland</td>
-<td>808.0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">9</td>
-<td>Japan</td>
-<td>489.054</td>
-<td>Japan</td>
-<td>618.20</td>
-<td>Japan</td>
-<td>607.0</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-</figure>
-</div>
-</div>
+</section>
+<section id="mayores-importadores-netos-de-combustibles-fósiles-2023" class="level2">
 
 
 
-</main> <!-- /main -->
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Mayores importadores netos de combustibles fósiles, 2023</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-iea_world_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">IEA, <span>“World energy balances. <span>IEA</span>.”</span> Accessed: Feb. 26, 2026. [Online]. Available: <a href="https://www.iea.org/data-and-statistics/data-product/world-energy-balances">https://www.iea.org/data-and-statistics/data-product/world-energy-balances</a></div>
+</div>
+<div id="ref-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">E. I. -Statistical Review of World Energy (2025) – with major processing by Our World in Data, <span>“Primary energy consumption by world region. Our world in data.”</span> Accessed: Feb. 26, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/primary-energy-consumption-by-region">https://ourworldindata.org/grapher/primary-energy-consumption-by-region</a></div>
+</div>
+<div id="ref-agencia_internacional_de_energia_iea_renewable_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">A. I. de Energía (IEA), <span>“Renewable energy progress tracker – data tools. <span>IEA</span>.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://www.iea.org/data-and-statistics/data-tools/renewable-energy-progress-tracker">https://www.iea.org/data-and-statistics/data-tools/renewable-energy-progress-tracker</a></div>
+</div>
+<div id="ref-energy_institute_-_statistical_review_of_world_energy_2025_per_2026" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">Energy Institute - Statistical Review of World Energy (2025), Population based on various sources (2024), and – with major processing by Our World in Data, <span>“Per capita oil consumption. Our world in data.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/per-capita-oil">https://ourworldindata.org/grapher/per-capita-oil</a></div>
+</div>
+<div id="ref-ritchie_electricity_2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">H. Ritchie and P. Rosado, <span>“Electricity mix,”</span> <em>Our World in Data</em>, Jul. 2020, Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/electricity-mix">https://ourworldindata.org/electricity-mix</a></div>
+</div>
+<div id="ref-noauthor_per_nodate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline"><span>“Per capita electricity generation. Our world in data.”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://ourworldindata.org/grapher/per-capita-electricity-generation?tab=line&amp;country=GBR~USA~IND~CHN&amp;time=1985..2025">https://ourworldindata.org/grapher/per-capita-electricity-generation?tab=line&amp;country=GBR~USA~IND~CHN&amp;time=1985..2025</a></div>
+</div>
+<div id="ref-noauthor_international_nodate" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline"><span>“International energy outlook - u.s. Energy information administration (<span>EIA</span>).”</span> Accessed: Mar. 14, 2026. [Online]. Available: <a href="https://www.eia.gov/outlooks/ieo/data.php">https://www.eia.gov/outlooks/ieo/data.php</a></div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

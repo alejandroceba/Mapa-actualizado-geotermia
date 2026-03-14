@@ -1,0 +1,335 @@
+publicacion,region,producto,flujo,unidad,anio,escenario,valor
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2000,Caso principal,34.71
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2000,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2000,Caso principal,0.42
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2000,Caso principal,0.05
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2000,Caso principal,16.87
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2000,Caso principal,8.41
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2000,Caso principal,787.66
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2000,Caso principal,0.09
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2000,Caso principal,0.73
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2001,Caso principal,36.72
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2001,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2001,Caso principal,0.25
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2001,Caso principal,0.05
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2001,Caso principal,23.82
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2001,Caso principal,8.1
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2001,Caso principal,794.82
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2001,Caso principal,0.1
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2001,Caso principal,1
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2002,Caso principal,38.49
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2002,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2002,Caso principal,0.2
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2002,Caso principal,0.22
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2002,Caso principal,30.36
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2002,Caso principal,8.25
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2002,Caso principal,808.54
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2002,Caso principal,0.13
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2002,Caso principal,1.34
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2003,Caso principal,41.82
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2003,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2003,Caso principal,0.39
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2003,Caso principal,0.51
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2003,Caso principal,37.84
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2003,Caso principal,8.28
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2003,Caso principal,829.14
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2003,Caso principal,0.15
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2003,Caso principal,1.85
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2004,Caso principal,43.92
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2004,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2004,Caso principal,0.39
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2004,Caso principal,0.61
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2004,Caso principal,46.52
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2004,Caso principal,8.32
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2004,Caso principal,851.13
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2004,Caso principal,0.22
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2004,Caso principal,2.88
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2005,Caso principal,48.86
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2005,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2005,Caso principal,0.39
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2005,Caso principal,0.7
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2005,Caso principal,57.82
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2005,Caso principal,8.66
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2005,Caso principal,874.48
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2005,Caso principal,0.29
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2005,Caso principal,4.28
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2006,Caso principal,51.31
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2006,Caso principal,0.26
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2006,Caso principal,0.41
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2006,Caso principal,0.9
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2006,Caso principal,72.29
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2006,Caso principal,8.83
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2006,Caso principal,897.83
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2006,Caso principal,0.38
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2006,Caso principal,5.71
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2007,Caso principal,54.18
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2007,Caso principal,0.27
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2007,Caso principal,0.48
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2007,Caso principal,1.1
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2007,Caso principal,90.56
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2007,Caso principal,8.97
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2007,Caso principal,929.27
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2007,Caso principal,0.62
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2007,Caso principal,7.7
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2008,Caso principal,58.01
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2008,Caso principal,0.27
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2008,Caso principal,0.53
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2008,Caso principal,1.44
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2008,Caso principal,114.26
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2008,Caso principal,9.26
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2008,Caso principal,960.7
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2008,Caso principal,1.7
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2008,Caso principal,12.95
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2009,Caso principal,64.92
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2009,Caso principal,0.27
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2009,Caso principal,0.76
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2009,Caso principal,2.17
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2009,Caso principal,148.07
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2009,Caso principal,9.7
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2009,Caso principal,994.34
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2009,Caso principal,3.37
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2009,Caso principal,19.31
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2010,Caso principal,71.3
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2010,Caso principal,0.27
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2010,Caso principal,1.25
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2010,Caso principal,3.29
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2010,Caso principal,177.96
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2010,Caso principal,9.93
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2010,Caso principal,1027.82
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2010,Caso principal,7.94
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2010,Caso principal,31.46
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2011,Caso principal,77.91
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2011,Caso principal,0.53
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2011,Caso principal,1.7
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2011,Caso principal,3.96
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2011,Caso principal,216.4
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2011,Caso principal,10.07
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2011,Caso principal,1058.69
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2011,Caso principal,18.85
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2011,Caso principal,51.95
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2012,Caso principal,83.88
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2012,Caso principal,0.53
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2012,Caso principal,2.55
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2012,Caso principal,5.72
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2012,Caso principal,261.56
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2012,Caso principal,10.45
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2012,Caso principal,1092.13
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2012,Caso principal,29.75
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2012,Caso principal,71.11
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2013,Caso principal,92.32
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2013,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2013,Caso principal,3.83
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2013,Caso principal,7.86
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2013,Caso principal,292.33
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2013,Caso principal,10.69
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2013,Caso principal,1138.96
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2013,Caso principal,52.94
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2013,Caso principal,86.48
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2014,Caso principal,99.22
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2014,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2014,Caso principal,4.39
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2014,Caso principal,9.19
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2014,Caso principal,340.61
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2014,Caso principal,11.2
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2014,Caso principal,1178.92
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2014,Caso principal,79.97
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2014,Caso principal,103.46
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2015,Caso principal,106.44
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2015,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2015,Caso principal,4.58
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2015,Caso principal,12.2
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2015,Caso principal,403.19
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2015,Caso principal,11.88
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2015,Caso principal,1216.04
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2015,Caso principal,116.75
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2015,Caso principal,122.39
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2016,Caso principal,115.25
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2016,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2016,Caso principal,4.86
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2016,Caso principal,14.77
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2016,Caso principal,452.76
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2016,Caso principal,12.2
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2016,Caso principal,1249.56
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2016,Caso principal,178.72
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2016,Caso principal,143.26
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2017,Caso principal,121.66
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2017,Caso principal,0.55
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2017,Caso principal,4.96
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2017,Caso principal,18.51
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2017,Caso principal,496.65
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2017,Caso principal,12.79
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2017,Caso principal,1272.74
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2017,Caso principal,248.39
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2017,Caso principal,182.04
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2018,Caso principal,129.74
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2018,Caso principal,0.55
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2018,Caso principal,5.69
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2018,Caso principal,22.99
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2018,Caso principal,541.83
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2018,Caso principal,13.23
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2018,Caso principal,1296.74
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2018,Caso principal,312.32
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2018,Caso principal,226.44
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2019,Caso principal,137.53
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2019,Caso principal,0.55
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2019,Caso principal,6.3
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2019,Caso principal,28.63
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2019,Caso principal,595.22
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2019,Caso principal,13.93
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2019,Caso principal,1315.46
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2019,Caso principal,388.43
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2019,Caso principal,273.06
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2020,Caso principal,146.81
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2020,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2020,Caso principal,6.39
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2020,Caso principal,34.77
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2020,Caso principal,697.27
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2020,Caso principal,14.32
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2020,Caso principal,1338.25
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2020,Caso principal,472.51
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2020,Caso principal,338.82
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2021,Caso principal,157.15
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2021,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2021,Caso principal,6.25
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2021,Caso principal,54.7
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2021,Caso principal,770.16
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2021,Caso principal,14.65
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2021,Caso principal,1366.67
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2021,Caso principal,561.3
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2021,Caso principal,415.68
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2022,Caso principal,163.94
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2022,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2022,Caso principal,6.4
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2022,Caso principal,65.03
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2022,Caso principal,835.96
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2022,Caso principal,14.71
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2022,Caso principal,1397.61
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2022,Caso principal,669.6
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2022,Caso principal,529.75
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2023,Caso principal,169.97
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2023,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2023,Caso principal,7
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2023,Caso principal,74.19
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2023,Caso principal,941.38
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2023,Caso principal,14.98
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2023,Caso principal,1410.32
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2023,Caso principal,905.41
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2023,Caso principal,717.46
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2024,Caso principal,174.16
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2024,Caso principal,0.54
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2024,Caso principal,7.54
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2024,Caso principal,83.41
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2024,Caso principal,1047.26
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2024,Caso principal,15.4
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2024,Caso principal,1434.99
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2024,Caso principal,1229.74
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2024,Caso principal,930.81
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2025,Caso acelerado,179.76
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2025,Caso acelerado,0.55
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2025,Caso acelerado,7.84
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2025,Caso acelerado,99.08
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2025,Caso acelerado,1186.26
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2025,Caso acelerado,15.89
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2025,Caso acelerado,1459.31
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2025,Caso acelerado,1589.41
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2025,Caso acelerado,1228.4
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2025,Caso principal,178.58
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2025,Caso principal,0.55
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2025,Caso principal,7.8
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2025,Caso principal,98.16
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2025,Caso principal,1171.22
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2025,Caso principal,15.84
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2025,Caso principal,1458.31
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2025,Caso principal,1550.26
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2025,Caso principal,1195.25
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2026,Caso acelerado,184.37
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2026,Caso acelerado,0.56
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2026,Caso acelerado,8.11
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2026,Caso acelerado,121.79
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2026,Caso acelerado,1312.72
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2026,Caso acelerado,16.71
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2026,Caso acelerado,1486.09
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2026,Caso acelerado,1953.48
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2026,Caso acelerado,1512.75
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2026,Caso principal,182.34
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2026,Caso principal,0.56
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2026,Caso principal,8
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2026,Caso principal,116.61
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2026,Caso principal,1276.89
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2026,Caso principal,16.59
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2026,Caso principal,1482.27
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2026,Caso principal,1857.68
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2026,Caso principal,1428.04
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2027,Caso acelerado,189.15
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2027,Caso acelerado,0.6
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2027,Caso acelerado,8.44
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2027,Caso acelerado,144.74
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2027,Caso acelerado,1449.4
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2027,Caso acelerado,17.55
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2027,Caso acelerado,1511.27
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2027,Caso acelerado,2369.11
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2027,Caso acelerado,1785.4
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2027,Caso principal,186.07
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2027,Caso principal,0.59
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2027,Caso principal,8.23
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2027,Caso principal,137.14
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2027,Caso principal,1398.16
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2027,Caso principal,17.27
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2027,Caso principal,1503.14
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2027,Caso principal,2197.07
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2027,Caso principal,1646.67
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2028,Caso acelerado,195.02
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2028,Caso acelerado,0.65
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2028,Caso acelerado,8.75
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2028,Caso acelerado,171.62
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2028,Caso acelerado,1595.47
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2028,Caso acelerado,18.5
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2028,Caso acelerado,1539.15
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2028,Caso acelerado,2748.32
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2028,Caso acelerado,2076.42
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2028,Caso principal,190.44
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2028,Caso principal,0.64
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2028,Caso principal,8.47
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2028,Caso principal,158.69
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2028,Caso principal,1519.66
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2028,Caso principal,17.87
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2028,Caso principal,1528.11
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2028,Caso principal,2528.15
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2028,Caso principal,1889.23
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2029,Caso acelerado,202.27
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2029,Caso acelerado,0.68
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2029,Caso acelerado,9.33
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2029,Caso acelerado,213.07
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2029,Caso acelerado,1756.03
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2029,Caso acelerado,19.7
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2029,Caso acelerado,1574.87
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2029,Caso acelerado,3153.22
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2029,Caso acelerado,2390.65
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2029,Caso principal,194.92
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2029,Caso principal,0.66
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2029,Caso principal,8.77
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2029,Caso principal,186.74
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2029,Caso principal,1641.73
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2029,Caso principal,18.55
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2029,Caso principal,1554.75
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2029,Caso principal,2886
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2029,Caso principal,2148.27
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2030,Caso acelerado,211.77
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2030,Caso acelerado,0.73
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2030,Caso acelerado,9.91
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2030,Caso acelerado,270.22
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2030,Caso acelerado,1934.46
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2030,Caso acelerado,22.24
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2030,Caso acelerado,1627.05
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2030,Caso acelerado,3596.38
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2030,Caso acelerado,2734.74
+RENOVABLES2025,Mundo,Bioenergía,Capacidad,GW,2030,Caso principal,199.92
+RENOVABLES2025,Mundo,Energía oceánica,Capacidad,GW,2030,Caso principal,0.68
+RENOVABLES2025,Mundo,Energía solar concentrada,Capacidad,GW,2030,Caso principal,9.07
+RENOVABLES2025,Mundo,Eólica marina,Capacidad,GW,2030,Caso principal,223.83
+RENOVABLES2025,Mundo,Eólica terrestre,Capacidad,GW,2030,Caso principal,1779.57
+RENOVABLES2025,Mundo,Geotermia,Capacidad,GW,2030,Caso principal,19.99
+RENOVABLES2025,Mundo,Hidroelectricidad,Capacidad,GW,2030,Caso principal,1589.4
+RENOVABLES2025,Mundo,Sistemas FV a gran escala,Capacidad,GW,2030,Caso principal,3276.16
+RENOVABLES2025,Mundo,Sistemas FV distribuidos,Capacidad,GW,2030,Caso principal,2430.17
+RENOVABLES2025,Mundo,Total,Capacidad,GW,2030,Meta,8355.385926

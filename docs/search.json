@@ -4,63 +4,98 @@
     "href": "notebooks/001_graphs.html",
     "title": "Mapa actualizado capacidad geotérmica",
     "section": "",
-    "text": "import pandas as pd \nimport numpy as np\nimport matplotlib.pyplot as plt\nimport plotly.express as px\n\n\nf = \"../data/3960AFa8.csv\"\ndf = pd.read_csv(f,skiprows=3)\nenergy_columns = [col for col in df.columns if col not in ['Año', 'Unidades']]\n\nfig = px.area(df, \n              x='Año', \n              y=energy_columns,\n              labels={'value': 'Energía primaria [TJ]', 'variable': 'Fuente'})\nfig.update_layout(hovermode='x unified')\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nfig = px.area(df, \n              x='Año', \n              y=energy_columns,\n              groupnorm=\"percent\",\n              labels={'value': '%', 'variable': 'Fuente'})\nfig.update_layout(hovermode='x unified')\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nf = \"../data/primary-energy-consumption-by-region.csv\"\ndf2 = pd.read_csv(f)\nregion_mapping = {\n    'Africa (EI)': 'África',\n    'Asia Pacific (EI)': 'Asia Pacífico',\n    'Europe (EI)': 'Europa',\n    'Middle East (EI)': 'Medio Oriente',\n    'North America (EI)': 'Norteamérica',\n    'South and Central America (EI)': 'Sudamérica y Centroamérica'\n}\ndf2['Entity'] = df2['Entity'].replace(region_mapping)\nfig = px.area(\n    df2,\n    x=\"Year\",\n    y=\"Primary energy consumption\",\n    color=\"Entity\",\n    labels={\n        \"Year\": \"Año\",\n        \"Primary energy consumption\": \"Energía primaria [TJ]\",\n        \"Entity\": \"Región\",\n    },\n)\nfig.update_layout(hovermode=\"x unified\")\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n\nfig = px.area(\n    df2,\n    x=\"Year\",\n    y=\"Primary energy consumption\",\n    color=\"Entity\",\n    labels={\n        \"Year\": \"Año\",\n        \"Primary energy consumption\": \"%\",\n        \"Entity\": \"Región\",\n    },\n    groupnorm=\"percent\"\n)\nfig.update_layout(hovermode=\"x unified\")\nfig.show()\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json"
+    "text": "Unable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1: Suministro total de energía por fuente, mundo, 1990-2023\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 2: Suministro total de energía por fuente, mundo, 1990-2023 (porcentajes)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 3: Consumo de energía primaria por región (valores absolutos)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 4: Consumo de energía primaria por región (porcentajes)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 5: Contribución de renovables al suministro primario (escenarios)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 6: Consumo de petróleo per cápita por región\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 7: Contribución de la generación eléctrica por fuente (valores absolutos)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 8: Contribución de la generación eléctrica por fuente (porcentajes)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 9: Generación eléctrica per cápita por región\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 10: Generación eléctrica per cápita por región (porcentajes)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 11: Consumo mundial de energía primaria por fuente (2023-2050)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 12: Consumo mundial de energía primaria por fuente (2023-2050, porcentajes)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 13: Consumo de energía primaria por región (2023-2050)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 14: Consumo de energía primaria por región (2023-2050, porcentajes)\n\n\n\n\n\n\n/tmp/ipykernel_11634/788365236.py:7: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 15: Mapa de capacidad instalada geotérmica\n\n\n\n\n\n\n\n\nTable 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
   },
   {
-    "objectID": "index.html#emisiones-de-co2-por-fuente-de-energía-2023",
-    "href": "index.html#emisiones-de-co2-por-fuente-de-energía-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Emisiones de CO2 por fuente de energía, 2023",
-    "text": "Emisiones de CO2 por fuente de energía, 2023"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mapa actualizado de capacidad geotérmica",
+    "section": "",
+    "text": "Este sitio organiza el analisis en capitulos tematicos, con las graficas centralizadas en la libreta notebooks/001_graphs.ipynb y reutilizadas en los archivos .qmd.\n\n\n\n1 Panorama mundial\n1.2 Impacto ambiental\n1.3 Comparativo de renovables\n1.5 Geotermia mundial\n\n\n\n\n\nEl codigo de las graficas vive en notebooks/001_graphs.ipynb.\nCada salida se integra en los capitulos mediante etiquetas (fig-*, tbl-*)."
   },
   {
-    "objectID": "index.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-2023",
-    "href": "index.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-2023",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global, 2023",
-    "text": "Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global, 2023"
+    "objectID": "index.html#capitulos",
+    "href": "index.html#capitulos",
+    "title": "Mapa actualizado de capacidad geotérmica",
+    "section": "",
+    "text": "1 Panorama mundial\n1.2 Impacto ambiental\n1.3 Comparativo de renovables\n1.5 Geotermia mundial"
   },
   {
-    "objectID": "index.html#datos-clave",
-    "href": "index.html#datos-clave",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Datos clave",
-    "text": "Datos clave\n\nAumento de emisiones por generación eléctrica 2000-2023: %\nCambio de las emisiones de CO2: %\nCrecimiento proyectado de ER: % / a\nCrecimiento proyectado de nuclear: % / a\nContribución proyectada de fósiles: % / a\nAumento de consumo de gas: % / a"
+    "objectID": "index.html#notas",
+    "href": "index.html#notas",
+    "title": "Mapa actualizado de capacidad geotérmica",
+    "section": "",
+    "text": "El codigo de las graficas vive en notebooks/001_graphs.ipynb.\nCada salida se integra en los capitulos mediante etiquetas (fig-*, tbl-*)."
   },
   {
-    "objectID": "index.html#emisiones-co2",
-    "href": "index.html#emisiones-co2",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Emisiones CO2",
-    "text": "Emisiones CO2\nComparación de emisiones de CO2 de geotermia y fuentes convencionales"
+    "objectID": "qmd/03_comparativo_renovables.html",
+    "href": "qmd/03_comparativo_renovables.html",
+    "title": "1.3 Escenario comparativo con otras fuentes renovables de energía",
+    "section": "",
+    "text": "Comparación de emisiones de CO2 de geotermia y fuentes convencionales."
   },
   {
-    "objectID": "index.html#emisiones-nox",
-    "href": "index.html#emisiones-nox",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Emisiones NOx",
-    "text": "Emisiones NOx"
+    "objectID": "qmd/03_comparativo_renovables.html#emisiones-co2",
+    "href": "qmd/03_comparativo_renovables.html#emisiones-co2",
+    "title": "1.3 Escenario comparativo con otras fuentes renovables de energía",
+    "section": "",
+    "text": "Comparación de emisiones de CO2 de geotermia y fuentes convencionales."
   },
   {
-    "objectID": "index.html#mapa-de-capacidad-instalada-geotérmica",
-    "href": "index.html#mapa-de-capacidad-instalada-geotérmica",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Mapa de capacidad instalada geotérmica",
-    "text": "Mapa de capacidad instalada geotérmica\nLos datos de [3] corresponden al promedio de 2024, los de [4] a marzo de 2025 y los de [5] a finales de 2025.\n\n\n/tmp/ipykernel_29211/3960948908.py:14: DeprecationWarning:\n\nThe library used by the *country names* `locationmode` option is changing in an upcoming version. Country names in existing plots may not work in the new version. To ensure consistent behavior, consider setting `locationmode` to *ISO-3*."
+    "objectID": "qmd/01_panorama_mundial.html",
+    "href": "qmd/01_panorama_mundial.html",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.\n\n\nTendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1: Suministro total de energía por fuente, mundo, 1990-2023\n\n\n\n\nSource: 001_graphs.ipynb\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 2: Suministro total de energía por fuente, mundo, 1990-2023 (porcentajes)\n\n\n\n\n\n\n\n\nConsumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 3: Consumo de energía primaria por región (valores absolutos)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 4: Consumo de energía primaria por región (porcentajes)\n\n\n\n\n\n\n\n\nProyecciones diferentes escenarios.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 5: Contribución de renovables al suministro primario (escenarios)\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 6: Consumo de petróleo per cápita por región\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 7: Contribución de la generación eléctrica por fuente (valores absolutos)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 8: Contribución de la generación eléctrica por fuente (porcentajes)\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 9: Generación eléctrica per cápita por región\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 10: Generación eléctrica per cápita por región (porcentajes)\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 11: Consumo mundial de energía primaria por fuente (2023-2050)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 12: Consumo mundial de energía primaria por fuente (2023-2050, porcentajes)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 13: Consumo de energía primaria por región (2023-2050)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 14: Consumo de energía primaria por región (2023-2050, porcentajes)"
   },
   {
-    "objectID": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
-    "href": "index.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Top 10 países con mayor capacidad instalada geotérmica",
-    "text": "Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
+    "objectID": "qmd/01_panorama_mundial.html#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025",
+    "href": "qmd/01_panorama_mundial.html#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1: Suministro total de energía por fuente, mundo, 1990-2023\n\n\n\n\nSource: 001_graphs.ipynb\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 2: Suministro total de energía por fuente, mundo, 1990-2023 (porcentajes)"
   },
   {
-    "objectID": "index.html#referencias",
-    "href": "index.html#referencias",
-    "title": "1 La geotermia como energía renovable",
-    "section": "Referencias",
-    "text": "Referencias\n\n\n[1] IEA, “World energy balances. IEA.” Accessed: Feb. 26, 2026. [Online]. Available: https://www.iea.org/data-and-statistics/data-product/world-energy-balances\n\n\n[2] E. I. -Statistical Review of World Energy (2025) – with major processing by Our World in Data, “Primary energy consumption by world region. Our world in data.” Accessed: Feb. 26, 2026. [Online]. Available: https://ourworldindata.org/grapher/primary-energy-consumption-by-region\n\n\n[3] International Renewable Energy Agency, Renewable Energy Statistics 2025. Abu Dhabi: International Renewable Energy Agency IRENA, 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_DAT_RE_Statistics_2025.pdf\n\n\n[4] Global Energy Monitor, “Global Geothermal Power Tracker, March 2025 release,” Global Energy Monitor. Global Energy Monitor, Covina, Canada, Mar. 2025. Accessed: Feb. 10, 2026. [Online]. Available: https://globalenergymonitor.org/projects/global-geothermal-power-tracker/\n\n\n[5] A. Richter, “Global Top 10 Geothermal Power Countries at Year-End 2025.” Think GeoEnergy, Jan. 2026. Accessed: Feb. 10, 2026. [Online]. Available: https://www.thinkgeoenergy.com/global-top-10-geothermal-power-countries-at-year-end-2025/"
+    "objectID": "qmd/01_panorama_mundial.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
+    "href": "qmd/01_panorama_mundial.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 3: Consumo de energía primaria por región (valores absolutos)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 4: Consumo de energía primaria por región (porcentajes)"
+  },
+  {
+    "objectID": "qmd/01_panorama_mundial.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025",
+    "href": "qmd/01_panorama_mundial.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Proyecciones diferentes escenarios.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 5: Contribución de renovables al suministro primario (escenarios)"
+  },
+  {
+    "objectID": "qmd/01_panorama_mundial.html#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026",
+    "href": "qmd/01_panorama_mundial.html#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Unable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 6: Consumo de petróleo per cápita por región"
+  },
+  {
+    "objectID": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020",
+    "href": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Unable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 7: Contribución de la generación eléctrica por fuente (valores absolutos)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 8: Contribución de la generación eléctrica por fuente (porcentajes)"
+  },
+  {
+    "objectID": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate",
+    "href": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Unable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 9: Generación eléctrica per cápita por región\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 10: Generación eléctrica per cápita por región (porcentajes)"
+  },
+  {
+    "objectID": "qmd/01_panorama_mundial.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate",
+    "href": "qmd/01_panorama_mundial.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate",
+    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "section": "",
+    "text": "Unable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 11: Consumo mundial de energía primaria por fuente (2023-2050)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 12: Consumo mundial de energía primaria por fuente (2023-2050, porcentajes)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 13: Consumo de energía primaria por región (2023-2050)\n\n\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 14: Consumo de energía primaria por región (2023-2050, porcentajes)"
   },
   {
     "objectID": "data/readme.html",
@@ -96,6 +131,41 @@
     "title": "Primary energy consumption by world region - Data package",
     "section": "",
     "text": "Comprises commercially-traded fuels, including modern renewables used to generate electricity. Energy from all sources of non-fossil power generation is accounted for on an input-equivalent basis. Last updated: June 27, 2025\nNext update: June 2026\nDate range: 1965–2024\nUnit: terawatt-hours\n\n\n\n\nIf you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data\n\n\n\nEnergy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Primary energy consumption” [dataset]. Energy Institute, “Statistical Review of World Energy” [original data]. Source: Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World In Data\n\n\n\n\n\n\nRetrieved on: 2025-06-27\nRetrieved from: https://www.energyinst.org/statistical-review/"
+  },
+  {
+    "objectID": "qmd/02_impacto_ambiental.html",
+    "href": "qmd/02_impacto_ambiental.html",
+    "title": "1.2 Impacto ambiental del consumo de energía",
+    "section": "",
+    "text": "Aumento de emisiones por generación eléctrica 2000-2023: %\nCambio de las emisiones de CO2: %\nCrecimiento proyectado de ER: % / a\nCrecimiento proyectado de nuclear: % / a\nContribución proyectada de fósiles: % / a\nAumento de consumo de gas: % / a"
+  },
+  {
+    "objectID": "qmd/02_impacto_ambiental.html#datos-clave",
+    "href": "qmd/02_impacto_ambiental.html#datos-clave",
+    "title": "1.2 Impacto ambiental del consumo de energía",
+    "section": "",
+    "text": "Aumento de emisiones por generación eléctrica 2000-2023: %\nCambio de las emisiones de CO2: %\nCrecimiento proyectado de ER: % / a\nCrecimiento proyectado de nuclear: % / a\nContribución proyectada de fósiles: % / a\nAumento de consumo de gas: % / a"
+  },
+  {
+    "objectID": "qmd/04_geotermia_mundial.html",
+    "href": "qmd/04_geotermia_mundial.html",
+    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "section": "",
+    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1: Mapa de capacidad instalada geotérmica\n\n\n\n\nSource: 001_graphs.ipynb\n\n\n\n\n\n\n\n\nTable 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
+  },
+  {
+    "objectID": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
+    "href": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
+    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "section": "",
+    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\nFigure 1: Mapa de capacidad instalada geotérmica\n\n\n\n\nSource: 001_graphs.ipynb"
+  },
+  {
+    "objectID": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
+    "href": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
+    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "section": "",
+    "text": "Table 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
   },
   {
     "objectID": "about.html",

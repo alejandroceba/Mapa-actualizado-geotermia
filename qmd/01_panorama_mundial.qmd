@@ -1,0 +1,57 @@
+---
+title: "1 Panorama mundial de energía, energías renovables y geotermia"
+---
+
+# Panorama mundial de energía, energías renovables y geotermia
+
+Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.
+
+## Suministro total de energía por fuente, mundo, 1990-2023, @iea_world_2025
+
+Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-panorama-fuentes-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-panorama-fuentes-pct >}}
+
+## Consumo de energía primaria por región, 2024 @energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025
+
+Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-region-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-region-pct >}}
+
+## Contribución de las energías renovables al suministro total de energía primaria @agencia_internacional_de_energia_iea_renewable_2025
+
+Proyecciones diferentes escenarios.
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-renovables-escenarios >}}
+
+## Consumo de petróleo per cápita por región @energy_institute_-_statistical_review_of_world_energy_2025_per_2026
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-oil-percap-region >}}
+
+## Contribución de la generación eléctrica por fuente @ritchie_electricity_2020
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-elec-fuente-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-elec-fuente-pct >}}
+
+## Contribución de la generación eléctrica por región @noauthor_per_nodate
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-elec-percap-region-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-elec-percap-region-pct >}}
+
+## Total del consumo mundial por fuente de energía, 2023 - 2050 @noauthor_international_nodate
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-2050-fuente-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-2050-fuente-pct >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-2050-region-abs >}}
+
+{{< embed ../notebooks/001_graphs.ipynb#fig-primaria-2050-region-pct >}}
+
+## Mayores importadores netos de combustibles fósiles, 2023
