@@ -54,4 +54,9 @@ Proyecciones diferentes escenarios.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-primaria-2050-region-pct >}}
 
-## Mayores importadores netos de combustibles fósiles, 2023
+## Mayores importadores netos de combustibles fósiles, 2024 @import, @export, @production
+
+{{< embed ../notebooks/graphs_embed.ipynb#tbl-top10-importadores-exportadores-productores >}}
+
+
+
