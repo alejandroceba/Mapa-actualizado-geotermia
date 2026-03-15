@@ -4,15 +4,22 @@ title: "1.2 Impacto ambiental del consumo de energía"
 
 # 1.2 Impacto ambiental del consumo de energía
 
-## Emisiones de CO2 por fuente de energía, 2023
+## Emisiones de CO2 por fuente de energía @ritchie_co_2020
 
-## Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global, 2023
+{{< embed ../notebooks/graphs_embed.ipynb#fig-co2-fuente-area >}}
+
+{{< embed ../notebooks/graphs_embed.ipynb#fig-co2-fuente-pct >}}
+
+## Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global @ritchie_greenhouse_2020
+
+{{< embed ../notebooks/graphs_embed.ipynb#fig-ghg-gas-abs >}}
+
+{{< embed ../notebooks/graphs_embed.ipynb#fig-ghg-gas-pct >}}
 
 ## Datos clave
 
-* Aumento de emisiones por generación eléctrica 2000-2023: %
-* Cambio de las emisiones de CO2: %
-* Crecimiento proyectado de ER: % / a
-* Crecimiento proyectado de nuclear: % / a
-* Contribución proyectada de fósiles: % / a
-* Aumento de consumo de gas: % / a
+* Aumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) @noauthor_executive_nodate
+* Crecimiento proyectado de ER:  12 % / a @noauthor_renewable_nodate
+* Crecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales @noauthor_iaea_2025
+* Contribución proyectada de fósiles: 1.1 % en 2025 @noauthor_global_nodate
+* Aumento de consumo de gas: 2 % en 2026 @noauthor_growth_2026

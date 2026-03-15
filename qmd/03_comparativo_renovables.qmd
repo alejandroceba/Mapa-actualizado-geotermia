@@ -1,11 +1,4 @@
 ---
-title: "1.3 Escenario comparativo con otras fuentes renovables de energía"
+title: "1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía @song_life_2023"
 ---
-
-# 1.3 Escenario comparativo con otras fuentes renovables de energía
-
-## Emisiones CO2
-
-Comparación de emisiones de CO2 de geotermia y fuentes convencionales.
-
-## Emisiones NOx
+{{< embed ../notebooks/graphs_embed.ipynb#fig-emisiones >}}

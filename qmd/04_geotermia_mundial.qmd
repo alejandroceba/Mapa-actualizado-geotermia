@@ -1,8 +1,8 @@
 ---
-title: "1.5 Escenario mundial actual de explotación de los recursos geotérmicos"
+title: "1.4 Escenario mundial actual de explotación de los recursos geotérmicos"
 ---
 
-# 1.5 Escenario mundial actual de explotación de los recursos geotérmicos
+# 1.4 Escenario mundial actual de explotación de los recursos geotérmicos
 
 ## Mapa de capacidad instalada geotérmica
 

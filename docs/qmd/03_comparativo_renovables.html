@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1.3 Escenario comparativo con otras fuentes renovables de energía – Mapa actualizado capacidad geotérmica</title>
+<title>1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía [1] – Mapa actualizado capacidad geotérmica</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,10 +20,30 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -67,6 +87,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -125,24 +148,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#escenario-comparativo-con-otras-fuentes-renovables-de-energía" id="toc-escenario-comparativo-con-otras-fuentes-renovables-de-energía" class="nav-link active" data-scroll-target="#escenario-comparativo-con-otras-fuentes-renovables-de-energía">1.3 Escenario comparativo con otras fuentes renovables de energía</a>
-  <ul class="collapse">
-  <li><a href="#emisiones-co2" id="toc-emisiones-co2" class="nav-link" data-scroll-target="#emisiones-co2">Emisiones CO2</a></li>
-  <li><a href="#emisiones-nox" id="toc-emisiones-nox" class="nav-link" data-scroll-target="#emisiones-nox">Emisiones NOx</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+        
+    <div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="../notebooks/graphs_embed-preview.html"><i class="bi bi-journal-code"></i>graphs_embed.ipynb</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">1.3 Escenario comparativo con otras fuentes renovables de energía</h1>
+<h1 class="title">1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía <span class="citation" data-cites="song_life_2023"><a href="#ref-song_life_2023" role="doc-biblioref">[1]</a></span></h1>
 </div>
 
 
@@ -159,20 +172,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="escenario-comparativo-con-otras-fuentes-renovables-de-energía" class="level1">
-<h1>1.3 Escenario comparativo con otras fuentes renovables de energía</h1>
-<section id="emisiones-co2" class="level2">
-<h2 class="anchored" data-anchor-id="emisiones-co2">Emisiones CO2</h2>
-<p>Comparación de emisiones de CO2 de geotermia y fuentes convencionales.</p>
-</section>
-<section id="emisiones-nox" class="level2">
-<h2 class="anchored" data-anchor-id="emisiones-nox">Emisiones NOx</h2>
+<div class="quarto-embed-nb-cell">
+<div id="cell-fig-emisiones" class="cell" data-execution_count="40">
+<div id="fig-emisiones" class="cell-output cell-output-display quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="40">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-emisiones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
 
 
-</section>
-</section>
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Fuente</th>
+<th data-quarto-table-cell-role="th">Emisiones de CO2 (g CO2e/kWh)</th>
+<th data-quarto-table-cell-role="th">Emisiones de NOx (g/kWh)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>Geotermia</td>
+<td>30.0 – 43.0</td>
+<td>0.309</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>Eólica</td>
+<td>11.75 – 15.98</td>
+<td>0.06 – 2.29</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>Solar FV</td>
+<td>39</td>
+<td>0.06 – 2.29</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>Hidroenergía</td>
+<td>15.0 – 366.1</td>
+<td>0.06 – 2.29</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>Biomasa</td>
+<td>555.2 – 653.5</td>
+<td>1.61 – 4.65</td>
+</tr>
+</tbody>
+</table>
 
-</main> <!-- /main -->
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-emisiones-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</div>
+<a class="quarto-notebook-link" id="nblink-1" href="../notebooks/graphs_embed-preview.html#cell-fig-emisiones">Source: graphs_embed.ipynb</a></div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-song_life_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">G. Song, Q. Zhao, B. Shao, H. Zhao, H. Wang, and W. Tan, <span>“Life cycle assessment of greenhouse gas (<span>GHG</span>) and <span>NOx</span> emissions of power-to-H2-to-power technology integrated with hydrogen-fueled gas turbine,”</span> <em>Energies</em>, vol. 16, no. 2, Jan. 2023, doi: <a href="https://doi.org/10.3390/en16020977">10.3390/en16020977</a>.</div>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

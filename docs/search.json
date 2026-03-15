@@ -2,21 +2,21 @@
   {
     "objectID": "qmd/04_geotermia_mundial.html",
     "href": "qmd/04_geotermia_mundial.html",
-    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
     "section": "",
     "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n\n\n\nTable 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
   },
   {
     "objectID": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
     "href": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
-    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
     "section": "",
     "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb"
   },
   {
     "objectID": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
     "href": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
-    "title": "1.5 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
     "section": "",
     "text": "Table 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
   },
@@ -25,14 +25,28 @@
     "href": "qmd/02_impacto_ambiental.html",
     "title": "1.2 Impacto ambiental del consumo de energía",
     "section": "",
-    "text": "Aumento de emisiones por generación eléctrica 2000-2023: %\nCambio de las emisiones de CO2: %\nCrecimiento proyectado de ER: % / a\nCrecimiento proyectado de nuclear: % / a\nContribución proyectada de fósiles: % / a\nAumento de consumo de gas: % / a"
+    "text": "Figure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4\n\n\n\n\n\n\n\n\n\nAumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) [3]\nCrecimiento proyectado de ER: 12 % / a [4]\nCrecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales [5]\nContribución proyectada de fósiles: 1.1 % en 2025 [6]\nAumento de consumo de gas: 2 % en 2026 [7]"
+  },
+  {
+    "objectID": "qmd/02_impacto_ambiental.html#emisiones-de-co2-por-fuente-de-energía-ritchie_co_2020",
+    "href": "qmd/02_impacto_ambiental.html#emisiones-de-co2-por-fuente-de-energía-ritchie_co_2020",
+    "title": "1.2 Impacto ambiental del consumo de energía",
+    "section": "",
+    "text": "Figure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2"
+  },
+  {
+    "objectID": "qmd/02_impacto_ambiental.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-ritchie_greenhouse_2020",
+    "href": "qmd/02_impacto_ambiental.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-ritchie_greenhouse_2020",
+    "title": "1.2 Impacto ambiental del consumo de energía",
+    "section": "",
+    "text": "Figure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4"
   },
   {
     "objectID": "qmd/02_impacto_ambiental.html#datos-clave",
     "href": "qmd/02_impacto_ambiental.html#datos-clave",
     "title": "1.2 Impacto ambiental del consumo de energía",
     "section": "",
-    "text": "Aumento de emisiones por generación eléctrica 2000-2023: %\nCambio de las emisiones de CO2: %\nCrecimiento proyectado de ER: % / a\nCrecimiento proyectado de nuclear: % / a\nContribución proyectada de fósiles: % / a\nAumento de consumo de gas: % / a"
+    "text": "Aumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) [3]\nCrecimiento proyectado de ER: 12 % / a [4]\nCrecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales [5]\nContribución proyectada de fósiles: 1.1 % en 2025 [6]\nAumento de consumo de gas: 2 % en 2026 [7]"
   },
   {
     "objectID": "index.html",
@@ -128,15 +142,8 @@
   {
     "objectID": "qmd/03_comparativo_renovables.html",
     "href": "qmd/03_comparativo_renovables.html",
-    "title": "1.3 Escenario comparativo con otras fuentes renovables de energía",
+    "title": "1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía [1]",
     "section": "",
-    "text": "Comparación de emisiones de CO2 de geotermia y fuentes convencionales."
-  },
-  {
-    "objectID": "qmd/03_comparativo_renovables.html#emisiones-co2",
-    "href": "qmd/03_comparativo_renovables.html#emisiones-co2",
-    "title": "1.3 Escenario comparativo con otras fuentes renovables de energía",
-    "section": "",
-    "text": "Comparación de emisiones de CO2 de geotermia y fuentes convencionales."
+    "text": "Fuente\nEmisiones de CO2 (g CO2e/kWh)\nEmisiones de NOx (g/kWh)\n\n\n\n\n0\nGeotermia\n30.0 – 43.0\n0.309\n\n\n1\nEólica\n11.75 – 15.98\n0.06 – 2.29\n\n\n2\nSolar FV\n39\n0.06 – 2.29\n\n\n3\nHidroenergía\n15.0 – 366.1\n0.06 – 2.29\n\n\n4\nBiomasa\n555.2 – 653.5\n1.61 – 4.65\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\nReferences\n\n[1] G. Song, Q. Zhao, B. Shao, H. Zhao, H. Wang, and W. Tan, “Life cycle assessment of greenhouse gas (GHG) and NOx emissions of power-to-H2-to-power technology integrated with hydrogen-fueled gas turbine,” Energies, vol. 16, no. 2, Jan. 2023, doi: 10.3390/en16020977."
   }
 ]
