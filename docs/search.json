@@ -79,65 +79,65 @@
   {
     "objectID": "qmd/01_panorama_mundial.html",
     "href": "qmd/01_panorama_mundial.html",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "title": "1 Panorama mundial de energías renovables",
     "section": "",
-    "text": "Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.\n\n\nTendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\n\n\n\nConsumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4\n\n\n\n\n\n\n\n\nProyecciones diferentes escenarios.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 5\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 6\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 7\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 8\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 9\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 10\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 11\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 12\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 13\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 14\n\n\n\n\n\n\n\n\n\n\n\n\n\nTable 1: Top 10 paises importadores, exportadores y productores de petroleo\n\n\n\n\n\n\n\n\n\n\nranking\nimportador\nimportaciones (miles barriles/dia)\nexportador\nexportaciones (barriles/dia)\nproductor\nproduccion (barriles/dia)\n\n\n\n\n0\n1\nChina\n11.072,187\nOriente Medio (sin Arabia Saudita)\n16.600.958\nEstados Unidos\n21.874.761\n\n\n1\n2\nEstados Unidos\n6.588,000\nEstados Unidos\n9.876.720\nArabia Saudita\n10.690.184\n\n\n2\n3\nIndia\n4.795,440\nArabia Saudita\n7.653.927\nFederacion Rusa\n10.505.745\n\n\n3\n4\nJapon\n2.321,610\nFederacion Rusa\n7.043.295\nCanada\n5.926.309\n\n\n4\n5\nAlemania\n1.689,240\nAsia Pacifico (sin Japon)\n5.757.085\nChina\n5.053.027\n\n\n5\n6\nItalia\n1.128,718\nCanada\n5.135.022\nIran\n4.619.434\n\n\n6\n7\nFrancia\n897,630\nSudamerica y Centroamerica\n4.319.038\nIrak\n4.517.896\n\n\n7\n8\nReino Unido\n843,019\nAfrica Occidental\n3.465.226\nEmiratos Arabes Unidos\n4.497.340\n\n\n8\n9\nSingapur\n836,500\nOtros\n2.162.694\nBrasil\n4.216.171\n\n\n9\n10\nCanada\n657,924\nAfrica del Norte\n2.151.036\nKuwait\n2.779.784"
+    "text": "En la Figure 1 se observa que el suministro total de energìa primaria ha aumentado constantemente entre 1990 y 2023 (de 390 EJ a 630 EJ). El crecimiento se ha dado principalmente por el aumento en el consumo de petróleo, gas natural y carbón. En la Figure 2 se observa que la participación de las fuentes renovables ha aumentado ligeramente, pero sigue siendo una pequeña fracción del total (de 10% a 15%). El petróleo sigue siendo la fuente dominante, aunque su participación ha disminuido ligeramente. El gas natural ha aumentado su participación, mientras que el carbón ha disminuido. La energía nuclear se mantiene relativamente estable.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\nSe observa en la Figure 1 que el suministro total de energía tiene una correlación con eventos económicos como la crisis financiera de 2008 y la disminución de la demanda durante la pandemia de COVID-19 en 2020. De acuerdo con [2], un aumento del 1 % de la población se asocia con un aumento promedio de 0.677 % en el consumo de energía, de 1971 a 2010."
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025",
     "href": "qmd/01_panorama_mundial.html#suministro-total-de-energía-por-fuente-mundo-1990-2023-iea_world_2025",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
+    "title": "1 Panorama mundial de energías renovables",
     "section": "",
-    "text": "Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2"
+    "text": "En la Figure 1 se observa que el suministro total de energìa primaria ha aumentado constantemente entre 1990 y 2023 (de 390 EJ a 630 EJ). El crecimiento se ha dado principalmente por el aumento en el consumo de petróleo, gas natural y carbón. En la Figure 2 se observa que la participación de las fuentes renovables ha aumentado ligeramente, pero sigue siendo una pequeña fracción del total (de 10% a 15%). El petróleo sigue siendo la fuente dominante, aunque su participación ha disminuido ligeramente. El gas natural ha aumentado su participación, mientras que el carbón ha disminuido. La energía nuclear se mantiene relativamente estable.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\nSe observa en la Figure 1 que el suministro total de energía tiene una correlación con eventos económicos como la crisis financiera de 2008 y la disminución de la demanda durante la pandemia de COVID-19 en 2020. De acuerdo con [2], un aumento del 1 % de la población se asocia con un aumento promedio de 0.677 % en el consumo de energía, de 1971 a 2010."
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
     "href": "qmd/01_panorama_mundial.html#consumo-de-energía-primaria-por-región-2024-energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Consumo de energía primaria por región, 2024 [3]",
+    "text": "Consumo de energía primaria por región, 2024 [3]\nDe acuerdo con la Figure 3, el consumo de Asia Pacífico ha aumentado por el crecimiento población de China, mientras que el porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Europa ha disminuido su consumo absoluto y relativo, mientras que África y América Latina han aumentado su consumo absoluto pero no relativo. En la Figure 4 se observa que Asia Pacífico representa el 50% del consumo mundial de energía primaria en 2024, seguido por Norteamérica con el 25%, Europa con el 15%, y África y América Latina con el 10%. Esto refleja las diferencias en el desarrollo económico, la industrialización y la población entre las regiones.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4\n\n\n\n\n\nEl aumento del consumo de energía en China se puede correlacionar también con la razón entre la innovación tecnológica y la eficiencia energética de la economía. De acuerdo con [4], hay una correlación positiva entre la tasa de crecimiento de la productividad total de los factores (TFPG, por sus siglas en inglés) y la tasa de cambio del consumo de energía en el corto plazo. Aunque la innovación aumenta la eficiencia, este aumento de la eficiencia causó que más de la mitad del ahorro de energía que se esperaba por este aumento de eficiencia terminara siendo consumido por la reducción del costo de la energía en China de 1981 a 2010, fenómeno que se conoce como efecto rebote [4]."
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025",
     "href": "qmd/01_panorama_mundial.html#contribución-de-las-energías-renovables-al-suministro-total-de-energía-primaria-agencia_internacional_de_energia_iea_renewable_2025",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Proyecciones diferentes escenarios.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 5"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Contribución de las energías renovables al suministro total de energía primaria [5]",
+    "text": "Contribución de las energías renovables al suministro total de energía primaria [5]\nProyecciones diferentes escenarios.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 5"
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026",
     "href": "qmd/01_panorama_mundial.html#consumo-de-petróleo-per-cápita-por-región-energy_institute_-_statistical_review_of_world_energy_2025_per_2026",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Figure 6"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Consumo de petróleo per cápita por región [6]",
+    "text": "Consumo de petróleo per cápita por región [6]\n\n\n\n\n\n                        \n                                            \n\n\nFigure 6"
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020",
     "href": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-fuente-ritchie_electricity_2020",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Figure 7\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 8"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Contribución de la generación eléctrica por fuente [7]",
+    "text": "Contribución de la generación eléctrica por fuente [7]\n\n\n\n\n\n                        \n                                            \n\n\nFigure 7\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 8"
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate",
     "href": "qmd/01_panorama_mundial.html#contribución-de-la-generación-eléctrica-por-región-noauthor_per_nodate",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Figure 9\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 10"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Contribución de la generación eléctrica por región [8]",
+    "text": "Contribución de la generación eléctrica por región [8]\n\n\n\n\n\n                        \n                                            \n\n\nFigure 9\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 10"
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate",
     "href": "qmd/01_panorama_mundial.html#total-del-consumo-mundial-por-fuente-de-energía-2023---2050-noauthor_international_nodate",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Figure 11\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 12\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 13\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 14"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Total del consumo mundial por fuente de energía, 2023 - 2050 [9]",
+    "text": "Total del consumo mundial por fuente de energía, 2023 - 2050 [9]\n\n\n\n\n\n                        \n                                            \n\n\nFigure 11\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 12\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 13\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 14"
   },
   {
     "objectID": "qmd/01_panorama_mundial.html#mayores-importadores-netos-de-combustibles-fósiles-2024-import-export-production",
     "href": "qmd/01_panorama_mundial.html#mayores-importadores-netos-de-combustibles-fósiles-2024-import-export-production",
-    "title": "1 Panorama mundial de energía, energías renovables y geotermia",
-    "section": "",
-    "text": "Table 1: Top 10 paises importadores, exportadores y productores de petroleo\n\n\n\n\n\n\n\n\n\n\nranking\nimportador\nimportaciones (miles barriles/dia)\nexportador\nexportaciones (barriles/dia)\nproductor\nproduccion (barriles/dia)\n\n\n\n\n0\n1\nChina\n11.072,187\nOriente Medio (sin Arabia Saudita)\n16.600.958\nEstados Unidos\n21.874.761\n\n\n1\n2\nEstados Unidos\n6.588,000\nEstados Unidos\n9.876.720\nArabia Saudita\n10.690.184\n\n\n2\n3\nIndia\n4.795,440\nArabia Saudita\n7.653.927\nFederacion Rusa\n10.505.745\n\n\n3\n4\nJapon\n2.321,610\nFederacion Rusa\n7.043.295\nCanada\n5.926.309\n\n\n4\n5\nAlemania\n1.689,240\nAsia Pacifico (sin Japon)\n5.757.085\nChina\n5.053.027\n\n\n5\n6\nItalia\n1.128,718\nCanada\n5.135.022\nIran\n4.619.434\n\n\n6\n7\nFrancia\n897,630\nSudamerica y Centroamerica\n4.319.038\nIrak\n4.517.896\n\n\n7\n8\nReino Unido\n843,019\nAfrica Occidental\n3.465.226\nEmiratos Arabes Unidos\n4.497.340\n\n\n8\n9\nSingapur\n836,500\nOtros\n2.162.694\nBrasil\n4.216.171\n\n\n9\n10\nCanada\n657,924\nAfrica del Norte\n2.151.036\nKuwait\n2.779.784"
+    "title": "1 Panorama mundial de energías renovables",
+    "section": "Mayores importadores netos de combustibles fósiles, 2024 [10], [11], [12]",
+    "text": "Mayores importadores netos de combustibles fósiles, 2024 [10], [11], [12]\n\n\n\n\n\nTable 1: Top 10 paises importadores, exportadores y productores de petroleo\n\n\n\n\n\n\n\n\n\n\nranking\nimportador\nimportaciones (miles barriles/dia)\nexportador\nexportaciones (barriles/dia)\nproductor\nproduccion (barriles/dia)\n\n\n\n\n0\n1\nChina\n11.072,187\nOriente Medio (sin Arabia Saudita)\n16.600.958\nEstados Unidos\n21.874.761\n\n\n1\n2\nEstados Unidos\n6.588,000\nEstados Unidos\n9.876.720\nArabia Saudita\n10.690.184\n\n\n2\n3\nIndia\n4.795,440\nArabia Saudita\n7.653.927\nFederacion Rusa\n10.505.745\n\n\n3\n4\nJapon\n2.321,610\nFederacion Rusa\n7.043.295\nCanada\n5.926.309\n\n\n4\n5\nAlemania\n1.689,240\nAsia Pacifico (sin Japon)\n5.757.085\nChina\n5.053.027\n\n\n5\n6\nItalia\n1.128,718\nCanada\n5.135.022\nIran\n4.619.434\n\n\n6\n7\nFrancia\n897,630\nSudamerica y Centroamerica\n4.319.038\nIrak\n4.517.896\n\n\n7\n8\nReino Unido\n843,019\nAfrica Occidental\n3.465.226\nEmiratos Arabes Unidos\n4.497.340\n\n\n8\n9\nSingapur\n836,500\nOtros\n2.162.694\nBrasil\n4.216.171\n\n\n9\n10\nCanada\n657,924\nAfrica del Norte\n2.151.036\nKuwait\n2.779.784"
   },
   {
     "objectID": "qmd/03_comparativo_renovables.html",

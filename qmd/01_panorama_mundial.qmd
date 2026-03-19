@@ -1,50 +1,76 @@
 ---
-title: "1 Panorama mundial de energía, energías renovables y geotermia"
+title: "1 Panorama mundial de energías renovables"
 ---
-
-# Panorama mundial de energía, energías renovables y geotermia
-
-Visualización de datos actualizados comparación y contrastación de fuentes de energía, energías renovables y geotermia, para contexto y de la situación actual y proyecciones futuras, con discusión sobre diferentes indicadores y cambios en proyecciones por cambios tecnológicos.
 
 ## Suministro total de energía por fuente, mundo, 1990-2023, @iea_world_2025
 
-Tendencia: aumento. Fuerte correlación con crecimiento poblacional mundial.
+En la @fig-panorama-fuentes-abs se observa que el suministro total de energìa primaria ha aumentado constantemente entre 1990 y 2023 (de 390 EJ a 630 EJ). El crecimiento se ha dado principalmente por el aumento en el consumo de petróleo, gas natural y carbón. En la @fig-panorama-fuentes-pct se observa que la participación de las fuentes renovables ha aumentado ligeramente, pero sigue siendo una pequeña fracción del total (de 10% a 15%). El petróleo sigue siendo la fuente dominante, aunque su participación ha disminuido ligeramente. El gas natural ha aumentado su participación, mientras que el carbón ha disminuido. La energía nuclear se mantiene relativamente estable.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-panorama-fuentes-abs >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-panorama-fuentes-pct >}}
 
+Se observa en la @fig-panorama-fuentes-abs que el suministro total de energía tiene una correlación con eventos económicos como la crisis financiera de 2008 y la disminución de la demanda durante la pandemia de COVID-19 en 2020. De acuerdo con @li_impacts_2015, un aumento del 1 % de la población se asocia con un aumento promedio de 0.677 % en el consumo de energía, de 1971 a 2010. 
+
 ## Consumo de energía primaria por región, 2024 @energy_institute_-_statistical_review_of_world_energy_2025__with_major_processing_by_our_world_in_data_primary_2025
 
-Consumo de Asia Pacífico ha aumentado por crecimiento población de China, porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Comparación y contrastación con energía per cápita y eficiencia unidad de PIB por unidad de energía consumida. México: planeación de proyectos energéticos vida útil de 30-50 años estima aumento de demanda energética con proyecciones de crecimiento de población y TSA PLADESE.
+De acuerdo con la @fig-primaria-region-abs, el consumo de Asia Pacífico ha aumentado por el crecimiento población de China, mientras que el porcentaje de Norteamérica ha disminuido pero ha aumentado en términos absolutos. Europa ha disminuido su consumo absoluto y relativo, mientras que África y América Latina han aumentado su consumo absoluto pero no relativo. En la @fig-primaria-region-pct se observa que Asia Pacífico representa el 50% del consumo mundial de energía primaria en 2024, seguido por Norteamérica con el 25%, Europa con el 15%, y África y América Latina con el 10%. Esto refleja las diferencias en el desarrollo económico, la industrialización y la población entre las regiones.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-primaria-region-abs >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-primaria-region-pct >}}
 
+El aumento del consumo de energía en China se puede correlacionar también con la razón entre la innovación tecnológica y la eficiencia energética de la economía. De acuerdo con @jin_relationship_2018, hay una correlación positiva entre la tasa de crecimiento de la productividad total de los factores (TFPG, por sus siglas en inglés) y la tasa de cambio del consumo de energía en el corto plazo. Aunque la innovación aumenta la eficiencia, este aumento de la eficiencia causó que más de la mitad del ahorro de energía que se esperaba por este aumento de eficiencia terminara siendo consumido por la reducción del costo de la energía en China de 1981 a 2010, fenómeno que se conoce como efecto rebote @jin_relationship_2018.
+
 ## Contribución de las energías renovables al suministro total de energía primaria @agencia_internacional_de_energia_iea_renewable_2025
 
-Proyecciones diferentes escenarios.
+En la @fig-renovables-escenarios se observa que la capacidad instalada renovable ha aumentado significativamente entre 2000 y 2024, pasando de 800 a 5000 GW. El escenario de referencia proyecta un aumento continuo del la capacidad renovable, alcanzando alrededor de 9500 GW para 2030, lo que representaría aproximadamente el 25% del suministro total. El escenario de políticas sostenibles proyecta un crecimiento aún más rápido, con las energías renovables representando alrededor del 40% del suministro total para 2050. 
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-renovables-escenarios >}}
 
+Se proyecta que la capacidad renovable global aumente 4600 GW entre 2025 y 2030, el doble que los 5 años anteriores. La energía solar fotovoltaica (SFV) y la eólica van a representar el 96 % de las nuevas adiciones de cpacidad renovable hasta 2030 porque son las tecnologías renovables más competitivas en términos de costos y escalabilidad. 
+
 ## Consumo de petróleo per cápita por región @energy_institute_-_statistical_review_of_world_energy_2025_per_2026
+
+En la @fig-oil-percap-region el promedio mundial de consumo de petróleo per cápita pasa de 6,918.3 kWh en 1985 a 6,774.4 kWh en 2024 (-2.1%), pero con una brecha regional amplia: Norteamérica alcanza 20,881.7 kWh per cápita en 2024, mientras África registra 1,678.9 kWh (una razón de 12.44 veces). En el mismo periodo, Asia casi duplica su nivel (+97.3%), mientras Europa (-24.7%) y Norteamérica (-20.9%) muestran una trayectoria descendente.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-oil-percap-region >}}
 
+Esta trayectoria es coherente con indicadores tecnológicos reportados: la IEA proyecta 4,600 GW adicionales de capacidad renovable entre 2025 y 2030 y que solar+eólica aporten el 96% de las nuevas adiciones, señal de rápida sustitución tecnológica @agencia_internacional_de_energia_iea_renewable_2025; al mismo tiempo, la evidencia econométrica para China muestra que, aunque mejora la eficiencia vía innovación (TFPG), más de la mitad del ahorro potencial puede perderse por efecto rebote @jin_relationship_2018. En conjunto, estos datos sugieren que el cambio tecnológico acelera la transición, pero su efecto neto sobre consumo de petróleo per cápita depende de cuánto se contenga ese rebote.
+
 ## Contribución de la generación eléctrica por fuente @ritchie_electricity_2020
+
+En la @fig-elec-fuente-abs se observa que la generación eléctrica total ha aumentado significativamente entre 1990 y 2023, pasando de 10,000 TWh a 30,000 TWh. El crecimiento se ha dado principalmente por el aumento en la generación a partir de combustibles fósiles (carbón, gas natural y petróleo) y renovables (eólica y solar). En la @fig-elec-fuente-pct se observa que la participación de las fuentes renovables ha aumentado significativamente, pasando del 5% al 25% (incluyendo la hidroeléctrica). El carbón sigue siendo la fuente dominante, aunque su participación ha disminuido ligeramente. El gas natural ha aumentado su participación, mientras que el petróleo ha disminuido. La energía nuclear se mantiene relativamente estable.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-elec-fuente-abs >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-elec-fuente-pct >}}
 
+En la siguiente tabla se muestran algunos indicadores tecnológicos que pueden explicar las tendencias observadas en estas gráficas:
+
+| Indicador | Tendencia asociada | Fuente |
+|---|---|---|
+| `TFPG` | Eficiencia con posible efecto rebote en consumo | @jin_relationship_2018 |
+| Inversión e `I+D` renovable | Acelera despliegue renovable | @zhang_green_2022 |
+| Innovación renovable | Mejora transición y resultados climáticos | @lin_role_2019 |
+| Aprendizaje y costos | Baja de costos de solar/eólica y mayor adopción | @kobos_technological_2005 |
+
+
 ## Contribución de la generación eléctrica por región @noauthor_per_nodate
+
+En las gráficas de generación eléctrica per cápita por región (absoluta y porcentua, @fig-elec-percap-region-abs y @fig-elec-percap-region-pct) se observa que en 2022 Norteamérica mantiene el valor más alto con 8,996.4 kWh por persona, mientras África registra 638.3 kWh, una brecha de 14.1 veces; sin embargo, la dinámica de largo plazo muestra convergencia parcial, porque entre 1985 y 2022 Asia crece 395.5% y Sudamérica 116.8%, frente a aumentos más moderados en Norteamérica (10.4%) y Europa (16.5%). En la composición relativa del gráfico porcentual, Asia gana 8.5 puntos porcentuales y Sudamérica 3.8 puntos, mientras Norteamérica pierde 6.3 puntos, lo que indica que el crecimiento per cápita reciente se desplaza hacia regiones emergentes.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-elec-percap-region-abs >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-elec-percap-region-pct >}}
 
+Estas diferencias regionales en generación eléctrica per cápita son coherentes con brechas tecnológicas medibles: en gasto en I+D, Norteamérica registra 3.44% del PIB y Asia Oriental y Pacífico 2.83%, frente a 0.62% en América Latina y Caribe, mientras que en patentes de residentes Asia Oriental y Pacífico alcanza 1,769,228 solicitudes, muy por encima de América Latina y Caribe (8,385) y África Subsahariana (1,834), lo que refleja distinta capacidad de innovación y difusión tecnológica @world_bank_rd_gdp_api @world_bank_patents_residents_api. En comercio tecnológico también hay una señal consistente: las exportaciones de alta tecnología representan 34.68% de las manufacturas en Asia Oriental y Pacífico, contra 13.12% en América Latina y Caribe y 5.03% en África Subsahariana, patrón que ayuda a explicar por qué el crecimiento per cápita reciente se concentra en regiones con mayor densidad tecnológica @world_bank_hightech_exports_api.
+
 ## Total del consumo mundial por fuente de energía, 2023 - 2050 @noauthor_international_nodate
+
+Las proyecciones muestran un aumento del consumo energético mundial de 637.83 a 854.74 quads entre 2022 y 2050 (+34.0%), con un cambio de composición relevante: la categoría `Other` pasa de 15.7% a 25.6% (+118.58 quads), mientras el carbón cae en participación de 26.0% a 20.1% y los combustibles fósiles en conjunto bajan de 79.9% a 70.3%. En el componente regional, Asia Pacífico aumenta su peso de 45.9% a 49.6% y aporta el mayor incremento absoluto (+131.45 quads), mientras África y Medio Oriente es la región de mayor crecimiento relativo (+56.0%), patrón consistente con una demanda futura más concentrada en economías emergentes.
+
+
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-primaria-2050-fuente-abs >}}
 
@@ -54,9 +80,18 @@ Proyecciones diferentes escenarios.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-primaria-2050-region-pct >}}
 
+La estructura proyectada también se alinea con brechas tecnológicas regionales observables: Europa y Asia Central registra 3,466 investigadores en I+D por millón de habitantes y Norteamérica 4,886, frente a 583 en América Latina y Caribe, lo que sugiere mayor capacidad de absorción y despliegue tecnológico en regiones avanzadas @world_bank_researchers_rd_api. A la vez, Asia Oriental y Pacífico concentra 25.65% de exportaciones de bienes TIC sobre su comercio total (vs. 7.07% en América Latina y Caribe y 0.31% en África Subsahariana), indicador consistente con una base manufacturera-tecnológica más profunda que ayuda a explicar su mayor participación proyectada en el consumo energético global @world_bank_ict_exports_api.
+
+
+
 ## Mayores importadores netos de combustibles fósiles, 2024 @import, @export, @production
 
+La tabla muestra una alta concentración en los tres frentes: en importaciones (miles de barriles/día), China lidera con 11,072.187 y junto con Estados Unidos e India concentra 72.8% del Top 10 (30,830.268 en total); en exportaciones, Oriente Medio (sin Arabia Saudita) aporta 16,600,958 barriles/día y los cinco primeros explican 73.1% del Top 10 (64,165,001); y en producción, Estados Unidos encabeza con 21,874,761 barriles/día, mientras los tres primeros (Estados Unidos, Arabia Saudita y Federación Rusa) reúnen 57.7% del Top 10 (74,680,651). Este patrón confirma un mercado petrolero estructuralmente concentrado, donde pocos actores determinan gran parte de los flujos globales.
+
 {{< embed ../notebooks/graphs_embed.ipynb#tbl-top10-importadores-exportadores-productores >}}
+
+La concentración observada es consistente con brechas tecnológicas entre países líderes del ranking: en I+D sobre PIB, Estados Unidos (3.586%) y China (2.555%) superan ampliamente a India (0.646%) y Arabia Saudita (0.565%); en patentes de residentes, China registra 1,426,644 y Estados Unidos 262,244, frente a 26,267 en India y 1,398 en Arabia Saudita. Además, en exportaciones manufactureras de alta tecnología, China alcanza 26.278% y Estados Unidos 24.323%, mientras Arabia Saudita se ubica en 0.544%, lo que sugiere que la capacidad de innovación y sofisticación tecnológica se asocia con posiciones dominantes en producción y comercio energético @world_bank_rd_gdp_api @world_bank_patents_residents_api @world_bank_hightech_exports_api.
+
 
 
 
