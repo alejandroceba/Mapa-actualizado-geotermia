@@ -11,7 +11,7 @@ execute:
   echo: false
 jupyter: python3
 website:
-  title: "Mapa actualizado capacidad geotérmica"
+  title: "Panorama actual de las energías renovables y la geotermia"
   navbar:
     left:
       - href: index.qmd
