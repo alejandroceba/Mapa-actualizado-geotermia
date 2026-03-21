@@ -1,20 +1,26 @@
 ---
-title: "1.2 Impacto ambiental del consumo de energía"
+title: "2 Impacto ambiental del consumo de energía"
 ---
 
-# 1.2 Impacto ambiental del consumo de energía
-
 ## Emisiones de CO2 por fuente de energía @ritchie_co_2020
+
+Entre 1990 y 2024, las emisiones mundiales de CO2 por fuentes energéticas aumentan de 22.73 a 38.60 Gt (+69.8%). En el nivel más reciente, el carbón concentra 40.9% del total, seguido por petróleo (32.3%) y gas (20.8%); además, el carbón aporta 45.0% del incremento acumulado desde 1990 y el gas 26.6%, lo que indica que la expansión absoluta de emisiones sigue dominada por combustibles fósiles, pese a cambios graduales en la composición relativa.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-co2-fuente-area >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-co2-fuente-pct >}}
 
+La evolución observada es coherente con dos indicadores tecnológicos globales: la intensidad energética del PIB mundial cae de 6.06 a 4.55 MJ/US$2017 PPA entre 2000 y 2021 (-24.9%), señal de mejoras de eficiencia, mientras la participación de electricidad renovable sube de 19.29% a 27.88% entre 1990 y 2021 (+44.5%), reflejando difusión tecnológica en generación limpia @world_bank_energy_intensity_world_api @world_bank_renewable_electricity_world_api. En conjunto, estos avances ayudan a contener la intensidad de emisiones, pero no han sido suficientes para revertir el crecimiento absoluto de CO2 mostrado en las gráficas.
+
 ## Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global @ritchie_greenhouse_2020
+
+Las gráficas muestran que las emisiones globales de GEI por gas aumentan de 37.57 a 54.43 GtCO2e entre 1990 y 2024 (+44.9%). En 2024, el CO2 domina claramente con 77.2% del total, seguido por CH4 con 17.5% y N2O con 5.4%; además, en términos absolutos, el mayor incremento acumulado corresponde al CO2 (+14.01 GtCO2e), mientras CH4 (+2.18 GtCO2e) y N2O (+0.67 GtCO2e) crecen más lentamente pero de forma sostenida.
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-ghg-gas-abs >}}
 
 {{< embed ../notebooks/graphs_embed.ipynb#fig-ghg-gas-pct >}}
+
+Este patrón es compatible con la evolución de indicadores tecnológicos globales: la intensidad energética del PIB mundial cae de 6.06 a 4.55 MJ/US$2017 PPA entre 2000 y 2021 (-24.9%), y la electricidad renovable aumenta de 19.29% a 27.88% del total entre 1990 y 2021 (+44.5%) @world_bank_energy_intensity_world_api @world_bank_renewable_electricity_world_api. En conjunto, estos avances explican una moderación en la intensidad de emisiones, pero no han compensado completamente el crecimiento de la demanda energética total, por lo que el CO2 sigue siendo el principal contribuyente al calentamiento antropogénico.
 
 ## Datos clave
 

@@ -1,15 +1,26 @@
 ---
-title: "1.4 Escenario mundial actual de explotación de los recursos geotérmicos"
+title: "4 Escenario mundial actual de explotación de los recursos geotérmicos"
 ---
-
-# 1.4 Escenario mundial actual de explotación de los recursos geotérmicos
 
 ## Mapa de capacidad instalada geotérmica
 
 Los datos de @international_renewable_energy_agency_renewable_2025 corresponden al promedio de 2024, los de @global_energy_monitor_global_2025 a marzo de 2025 y los de @geoenergy_global_2026 a finales de 2025.
 
+Al consolidar estas tres referencias, la capacidad geotérmica instalada global pasa de 15,397.1 MW en 2024 a 16,072.0 MW en 2025, lo que implica un crecimiento de 4.4% interanual. La expansión sigue siendo concentrada: en 2025, Estados Unidos, Indonesia y Filipinas reúnen en conjunto 54.3% de la capacidad total, patrón consistente con la distribución espacial que muestra el mapa.
+
+
+
 {{< embed ../notebooks/graphs_embed.ipynb#fig-geotermia-mapa >}}
+
+Esta concentración también se relaciona con diferencias tecnológicas y de desempeño ambiental entre matrices eléctricas. Un meta-análisis comparativo reporta para geotermia factores de emisión de 0.1 a 47 gCO2e/kWh, notablemente por debajo de tecnologías fósiles como carbón (740.7 a 1689.6 gCO2e/kWh) y gas (166.5 a 1000.8 gCO2e/kWh), lo que favorece su despliegue en países con marcos regulatorios de descarbonización y mayor madurez en exploración y perforación profunda @song_life_2023.
+
+
 
 ## Top 10 países con mayor capacidad instalada geotérmica
 
+En este recorte de los diez países líderes (16,072.0 MW en conjunto para 2025), la capacidad también se observa altamente concentrada: Estados Unidos aporta 24.6% del total del bloque y la diferencia frente a Indonesia alcanza 1,211.0 MW. Además, los cinco primeros países (Estados Unidos, Indonesia, Filipinas, Turkiye y Nueva Zelanda) reúnen 73.3% de la capacidad del top 10, mientras los cinco restantes concentran 26.7%, lo que confirma una estructura de liderazgo marcada dentro del mercado geotérmico mundial.
+
+
 {{< embed ../notebooks/graphs_embed.ipynb#tbl-geotermia-top10 >}}
+
+Esta concentración es coherente con barreras tecnológicas y financieras de despliegue que siguen siendo relevantes en geotermia: se estima un potencial no aprovechado superior a 100 GW a escala global, pero con ritmos de expansión de solo 3-4% anual, una participación menor a 1% en la generación eléctrica mundial y periodos de maduración de proyectos de 5 a 10 años. Estos rangos ayudan a explicar por qué la expansión se acumula en países con mayor experiencia en exploración, perforación y estructuración de riesgo de largo plazo @kabeyi_geothermal_2019.

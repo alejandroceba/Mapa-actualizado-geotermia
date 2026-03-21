@@ -1,4 +1,11 @@
 ---
 title: "1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía @song_life_2023"
 ---
+
+En la comparación de emisiones se observa una brecha amplia entre tecnologías: en CO2 de ciclo de vida, geotermia se ubica en 30.0-43.0 gCO2e/kWh (valor medio 36.5), muy por debajo de biomasa (555.2-653.5; media 604.4) y cercana a solar FV (39), aunque por encima de eólica (11.75-15.98). En NOx, geotermia reporta 0.309 g/kWh, mientras biomasa alcanza 1.61-4.65 g/kWh, lo que implica una razón aproximada de 10.1 veces en términos medios; adicionalmente, hidroenergía muestra alta variabilidad en CO2 (15.0-366.1, una relación max/min de 24.4), señal de fuerte sensibilidad al contexto del proyecto.
+
+
 {{< embed ../notebooks/graphs_embed.ipynb#fig-emisiones >}}
+
+La forma de la gráfica es coherente con indicadores tecnológicos reportados en literatura académica reciente: Song et al. (2023) estiman para hidro, solar FV y eólica un rango de 8.8 a 366.1 gCO2e/kWh y para NOx de 0.06 a 2.29 g/kWh, mientras biomasa se ubica entre 555.2 y 653.5 gCO2e/kWh y 1.61 a 4.65 g/kWh @song_life_2023. Este dato cuantitativo respalda que la ventaja ambiental no depende solo de ser renovable, sino del diseño tecnológico y de la configuración de ciclo de vida (combustión, insumos y operación), que es precisamente lo que explica la dispersión observada entre fuentes en la figura.
+

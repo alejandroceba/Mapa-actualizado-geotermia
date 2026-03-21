@@ -2,72 +2,65 @@
   {
     "objectID": "qmd/04_geotermia_mundial.html",
     "href": "qmd/04_geotermia_mundial.html",
-    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "title": "4 Escenario mundial actual de explotación de los recursos geotérmicos",
     "section": "",
-    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n\n\n\nTable 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
+    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\nAl consolidar estas tres referencias, la capacidad geotérmica instalada global pasa de 15,397.1 MW en 2024 a 16,072.0 MW en 2025, lo que implica un crecimiento de 4.4% interanual. La expansión sigue siendo concentrada: en 2025, Estados Unidos, Indonesia y Filipinas reúnen en conjunto 54.3% de la capacidad total, patrón consistente con la distribución espacial que muestra el mapa.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\nEsta concentración también se relaciona con diferencias tecnológicas y de desempeño ambiental entre matrices eléctricas. Un meta-análisis comparativo reporta para geotermia factores de emisión de 0.1 a 47 gCO2e/kWh, notablemente por debajo de tecnologías fósiles como carbón (740.7 a 1689.6 gCO2e/kWh) y gas (166.5 a 1000.8 gCO2e/kWh), lo que favorece su despliegue en países con marcos regulatorios de descarbonización y mayor madurez en exploración y perforación profunda [4]."
   },
   {
     "objectID": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
     "href": "qmd/04_geotermia_mundial.html#mapa-de-capacidad-instalada-geotérmica",
-    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "title": "4 Escenario mundial actual de explotación de los recursos geotérmicos",
     "section": "",
-    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb"
+    "text": "Los datos de [1] corresponden al promedio de 2024, los de [2] a marzo de 2025 y los de [3] a finales de 2025.\nAl consolidar estas tres referencias, la capacidad geotérmica instalada global pasa de 15,397.1 MW en 2024 a 16,072.0 MW en 2025, lo que implica un crecimiento de 4.4% interanual. La expansión sigue siendo concentrada: en 2025, Estados Unidos, Indonesia y Filipinas reúnen en conjunto 54.3% de la capacidad total, patrón consistente con la distribución espacial que muestra el mapa.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\nEsta concentración también se relaciona con diferencias tecnológicas y de desempeño ambiental entre matrices eléctricas. Un meta-análisis comparativo reporta para geotermia factores de emisión de 0.1 a 47 gCO2e/kWh, notablemente por debajo de tecnologías fósiles como carbón (740.7 a 1689.6 gCO2e/kWh) y gas (166.5 a 1000.8 gCO2e/kWh), lo que favorece su despliegue en países con marcos regulatorios de descarbonización y mayor madurez en exploración y perforación profunda [4]."
   },
   {
     "objectID": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
     "href": "qmd/04_geotermia_mundial.html#top-10-países-con-mayor-capacidad-instalada-geotérmica",
-    "title": "1.4 Escenario mundial actual de explotación de los recursos geotérmicos",
-    "section": "",
-    "text": "Table 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0"
+    "title": "4 Escenario mundial actual de explotación de los recursos geotérmicos",
+    "section": "Top 10 países con mayor capacidad instalada geotérmica",
+    "text": "Top 10 países con mayor capacidad instalada geotérmica\nEn este recorte de los diez países líderes (16,072.0 MW en conjunto para 2025), la capacidad también se observa altamente concentrada: Estados Unidos aporta 24.6% del total del bloque y la diferencia frente a Indonesia alcanza 1,211.0 MW. Además, los cinco primeros países (Estados Unidos, Indonesia, Filipinas, Turkiye y Nueva Zelanda) reúnen 73.3% de la capacidad del top 10, mientras los cinco restantes concentran 26.7%, lo que confirma una estructura de liderazgo marcada dentro del mercado geotérmico mundial.\n\n\n\n\n\nTable 1: Top 10 países con mayor capacidad instalada geotérmica\n\n\n\n\n\n\n\n\n\n\nPaís\n2024 [1]\nPaís\n2025 [2]\nPaís\n2025 [3]\n\n\n\n\n0\nUnited States\n2725.000\nUnited States\n3733.50\nUnited States\n3953.0\n\n\n1\nIndonesia\n2638.800\nIndonesia\n2431.90\nIndonesia\n2742.0\n\n\n2\nPhilippines\n1951.800\nPhilippines\n1937.00\nPhilippines\n2034.0\n\n\n3\nTürkiye\n1734.338\nTürkiye\n1726.11\nTürkiye\n1797.0\n\n\n4\nNew Zealand\n1275.400\nNew Zealand\n1376.70\nNew Zealand\n1259.0\n\n\n5\nMexico\n998.500\nMexico\n941.00\nKenya\n980.0\n\n\n6\nKenya\n939.730\nItaly\n834.00\nMexico\n976.0\n\n\n7\nIceland\n787.580\nKenya\n816.50\nItaly\n916.0\n\n\n8\nItaly\n771.790\nIceland\n779.40\nIceland\n808.0\n\n\n9\nJapan\n489.054\nJapan\n618.20\nJapan\n607.0\n\n\n\n\n\n\n\n\n\n\n\nEsta concentración es coherente con barreras tecnológicas y financieras de despliegue que siguen siendo relevantes en geotermia: se estima un potencial no aprovechado superior a 100 GW a escala global, pero con ritmos de expansión de solo 3-4% anual, una participación menor a 1% en la generación eléctrica mundial y periodos de maduración de proyectos de 5 a 10 años. Estos rangos ayudan a explicar por qué la expansión se acumula en países con mayor experiencia en exploración, perforación y estructuración de riesgo de largo plazo [5]."
   },
   {
     "objectID": "qmd/02_impacto_ambiental.html",
     "href": "qmd/02_impacto_ambiental.html",
-    "title": "1.2 Impacto ambiental del consumo de energía",
+    "title": "2 Impacto ambiental del consumo de energía",
     "section": "",
-    "text": "Figure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4\n\n\n\n\n\n\n\n\n\nAumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) [3]\nCrecimiento proyectado de ER: 12 % / a [4]\nCrecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales [5]\nContribución proyectada de fósiles: 1.1 % en 2025 [6]\nAumento de consumo de gas: 2 % en 2026 [7]"
+    "text": "Entre 1990 y 2024, las emisiones mundiales de CO2 por fuentes energéticas aumentan de 22.73 a 38.60 Gt (+69.8%). En el nivel más reciente, el carbón concentra 40.9% del total, seguido por petróleo (32.3%) y gas (20.8%); además, el carbón aporta 45.0% del incremento acumulado desde 1990 y el gas 26.6%, lo que indica que la expansión absoluta de emisiones sigue dominada por combustibles fósiles, pese a cambios graduales en la composición relativa.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\nLa evolución observada es coherente con dos indicadores tecnológicos globales: la intensidad energética del PIB mundial cae de 6.06 a 4.55 MJ/US$2017 PPA entre 2000 y 2021 (-24.9%), señal de mejoras de eficiencia, mientras la participación de electricidad renovable sube de 19.29% a 27.88% entre 1990 y 2021 (+44.5%), reflejando difusión tecnológica en generación limpia [2] [3]. En conjunto, estos avances ayudan a contener la intensidad de emisiones, pero no han sido suficientes para revertir el crecimiento absoluto de CO2 mostrado en las gráficas."
   },
   {
     "objectID": "qmd/02_impacto_ambiental.html#emisiones-de-co2-por-fuente-de-energía-ritchie_co_2020",
     "href": "qmd/02_impacto_ambiental.html#emisiones-de-co2-por-fuente-de-energía-ritchie_co_2020",
-    "title": "1.2 Impacto ambiental del consumo de energía",
+    "title": "2 Impacto ambiental del consumo de energía",
     "section": "",
-    "text": "Figure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2"
+    "text": "Entre 1990 y 2024, las emisiones mundiales de CO2 por fuentes energéticas aumentan de 22.73 a 38.60 Gt (+69.8%). En el nivel más reciente, el carbón concentra 40.9% del total, seguido por petróleo (32.3%) y gas (20.8%); además, el carbón aporta 45.0% del incremento acumulado desde 1990 y el gas 26.6%, lo que indica que la expansión absoluta de emisiones sigue dominada por combustibles fósiles, pese a cambios graduales en la composición relativa.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\n\n                        \n                                            \n\n\nFigure 2\n\n\n\n\n\nLa evolución observada es coherente con dos indicadores tecnológicos globales: la intensidad energética del PIB mundial cae de 6.06 a 4.55 MJ/US$2017 PPA entre 2000 y 2021 (-24.9%), señal de mejoras de eficiencia, mientras la participación de electricidad renovable sube de 19.29% a 27.88% entre 1990 y 2021 (+44.5%), reflejando difusión tecnológica en generación limpia [2] [3]. En conjunto, estos avances ayudan a contener la intensidad de emisiones, pero no han sido suficientes para revertir el crecimiento absoluto de CO2 mostrado en las gráficas."
   },
   {
     "objectID": "qmd/02_impacto_ambiental.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-ritchie_greenhouse_2020",
     "href": "qmd/02_impacto_ambiental.html#contribución-estimada-de-gases-de-efecto-invernadero-gei-al-calentamiento-antropogénico-global-ritchie_greenhouse_2020",
-    "title": "1.2 Impacto ambiental del consumo de energía",
-    "section": "",
-    "text": "Figure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4"
+    "title": "2 Impacto ambiental del consumo de energía",
+    "section": "Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global [4]",
+    "text": "Contribución estimada de gases de efecto invernadero (GEI) al calentamiento antropogénico global [4]\nLas gráficas muestran que las emisiones globales de GEI por gas aumentan de 37.57 a 54.43 GtCO2e entre 1990 y 2024 (+44.9%). En 2024, el CO2 domina claramente con 77.2% del total, seguido por CH4 con 17.5% y N2O con 5.4%; además, en términos absolutos, el mayor incremento acumulado corresponde al CO2 (+14.01 GtCO2e), mientras CH4 (+2.18 GtCO2e) y N2O (+0.67 GtCO2e) crecen más lentamente pero de forma sostenida.\n\n\n\n\n\n                        \n                                            \n\n\nFigure 3\n\n\n\n\n\n\n\n\n\n\n                        \n                                            \n\n\nFigure 4\n\n\n\n\n\nEste patrón es compatible con la evolución de indicadores tecnológicos globales: la intensidad energética del PIB mundial cae de 6.06 a 4.55 MJ/US$2017 PPA entre 2000 y 2021 (-24.9%), y la electricidad renovable aumenta de 19.29% a 27.88% del total entre 1990 y 2021 (+44.5%) [2] [3]. En conjunto, estos avances explican una moderación en la intensidad de emisiones, pero no han compensado completamente el crecimiento de la demanda energética total, por lo que el CO2 sigue siendo el principal contribuyente al calentamiento antropogénico."
   },
   {
     "objectID": "qmd/02_impacto_ambiental.html#datos-clave",
     "href": "qmd/02_impacto_ambiental.html#datos-clave",
-    "title": "1.2 Impacto ambiental del consumo de energía",
-    "section": "",
-    "text": "Aumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) [3]\nCrecimiento proyectado de ER: 12 % / a [4]\nCrecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales [5]\nContribución proyectada de fósiles: 1.1 % en 2025 [6]\nAumento de consumo de gas: 2 % en 2026 [7]"
+    "title": "2 Impacto ambiental del consumo de energía",
+    "section": "Datos clave",
+    "text": "Datos clave\n\nAumento de emisiones por generación eléctrica 2000-2023: 7,911 MtCO2 a 14,153 MtCO2 (44.1 %) [5]\nCrecimiento proyectado de ER: 12 % / a [6]\nCrecimiento proyectado de nuclear: 1.26 % / a entre 2024 y 2050 en escenario de políticas actuales [7]\nContribución proyectada de fósiles: 1.1 % en 2025 [8]\nAumento de consumo de gas: 2 % en 2026 [9]"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Mapa actualizado de capacidad geotérmica",
+    "title": "Panorama actual de las energías renovables y la geotermia",
     "section": "",
-    "text": "Este sitio organiza el analisis en capitulos tematicos, con las graficas centralizadas en la libreta notebooks/001_graphs.ipynb y reutilizadas en los archivos .qmd.\n\n\n\n1 Panorama mundial\n1.2 Impacto ambiental\n1.3 Comparativo de renovables\n1.5 Geotermia mundial\n\n\n\n\n\nEl codigo de las graficas vive en notebooks/001_graphs.ipynb.\nCada salida se integra en los capitulos mediante etiquetas (fig-*, tbl-*)."
+    "text": "Se analiza la situación actual y alguanas proyecciones de las energías renovables a nivel mundial, con un enfoque específico en la geotermia. Se presentan datos sobre el impacto ambiental del consumo de energía, comparaciones entre diferentes fuentes renovables y un panorama detallado de la capacidad instalada de geotermia a nivel global, en relacion a indicadores tecnológicos"
   },
   {
     "objectID": "index.html#capitulos",
     "href": "index.html#capitulos",
-    "title": "Mapa actualizado de capacidad geotérmica",
-    "section": "",
-    "text": "1 Panorama mundial\n1.2 Impacto ambiental\n1.3 Comparativo de renovables\n1.5 Geotermia mundial"
-  },
-  {
-    "objectID": "index.html#notas",
-    "href": "index.html#notas",
-    "title": "Mapa actualizado de capacidad geotérmica",
-    "section": "",
-    "text": "El codigo de las graficas vive en notebooks/001_graphs.ipynb.\nCada salida se integra en los capitulos mediante etiquetas (fig-*, tbl-*)."
+    "title": "Panorama actual de las energías renovables y la geotermia",
+    "section": "Capitulos",
+    "text": "Capitulos\n\n1 Panorama mundial\n1.2 Impacto ambiental\n1.3 Comparativo de renovables\n1.5 Geotermia mundial"
   },
   {
     "objectID": "about.html",
@@ -144,6 +137,6 @@
     "href": "qmd/03_comparativo_renovables.html",
     "title": "1.3 Comparación de emisiones de CO2 y NOx de geotermia con otras fuentes renovables de energía [1]",
     "section": "",
-    "text": "Fuente\nEmisiones de CO2 (g CO2e/kWh)\nEmisiones de NOx (g/kWh)\n\n\n\n\n0\nGeotermia\n30.0 – 43.0\n0.309\n\n\n1\nEólica\n11.75 – 15.98\n0.06 – 2.29\n\n\n2\nSolar FV\n39\n0.06 – 2.29\n\n\n3\nHidroenergía\n15.0 – 366.1\n0.06 – 2.29\n\n\n4\nBiomasa\n555.2 – 653.5\n1.61 – 4.65\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\n\n\n\n\nReferences\n\n[1] G. Song, Q. Zhao, B. Shao, H. Zhao, H. Wang, and W. Tan, “Life cycle assessment of greenhouse gas (GHG) and NOx emissions of power-to-H2-to-power technology integrated with hydrogen-fueled gas turbine,” Energies, vol. 16, no. 2, Jan. 2023, doi: 10.3390/en16020977."
+    "text": "En la comparación de emisiones se observa una brecha amplia entre tecnologías: en CO2 de ciclo de vida, geotermia se ubica en 30.0-43.0 gCO2e/kWh (valor medio 36.5), muy por debajo de biomasa (555.2-653.5; media 604.4) y cercana a solar FV (39), aunque por encima de eólica (11.75-15.98). En NOx, geotermia reporta 0.309 g/kWh, mientras biomasa alcanza 1.61-4.65 g/kWh, lo que implica una razón aproximada de 10.1 veces en términos medios; adicionalmente, hidroenergía muestra alta variabilidad en CO2 (15.0-366.1, una relación max/min de 24.4), señal de fuerte sensibilidad al contexto del proyecto.\n\n\n\n\n\n\n\n\n\n\n\n\nFuente\nEmisiones de CO2 (g CO2e/kWh)\nEmisiones de NOx (g/kWh)\n\n\n\n\n0\nGeotermia\n30.0 – 43.0\n0.309\n\n\n1\nEólica\n11.75 – 15.98\n0.06 – 2.29\n\n\n2\nSolar FV\n39\n0.06 – 2.29\n\n\n3\nHidroenergía\n15.0 – 366.1\n0.06 – 2.29\n\n\n4\nBiomasa\n555.2 – 653.5\n1.61 – 4.65\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\nSource: graphs_embed.ipynb\nLa forma de la gráfica es coherente con indicadores tecnológicos reportados en literatura académica reciente: Song et al. (2023) estiman para hidro, solar FV y eólica un rango de 8.8 a 366.1 gCO2e/kWh y para NOx de 0.06 a 2.29 g/kWh, mientras biomasa se ubica entre 555.2 y 653.5 gCO2e/kWh y 1.61 a 4.65 g/kWh [1]. Este dato cuantitativo respalda que la ventaja ambiental no depende solo de ser renovable, sino del diseño tecnológico y de la configuración de ciclo de vida (combustión, insumos y operación), que es precisamente lo que explica la dispersión observada entre fuentes en la figura.\n\n\n\n\nReferences\n\n[1] G. Song, Q. Zhao, B. Shao, H. Zhao, H. Wang, and W. Tan, “Life cycle assessment of greenhouse gas (GHG) and NOx emissions of power-to-H2-to-power technology integrated with hydrogen-fueled gas turbine,” Energies, vol. 16, no. 2, Jan. 2023, doi: 10.3390/en16020977."
   }
 ]
